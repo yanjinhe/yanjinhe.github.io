@@ -38,7 +38,7 @@ My research interests focus on generative models (especially diffusion models) a
 
 
 # 📝 Publications 
-## (\*: Equal Contribution)
+(\*: Equal Contribution)
 
 - **Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law**\\
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
@@ -50,7 +50,7 @@ My research interests focus on generative models (especially diffusion models) a
 - **Top Talent Program in Applied Mathematics and Statistics** (**应用数学及统计拔尖人才计划**), Peking University
 
 
-# 🎖 Honors and Awards
+# 🎖️ Honors and Awards
 - **Merit Student**, Peking University, *2025*
 - **Leo KoGuan Scholarship**, Peking University, *2025*
 - **Merit Student**, Peking University, *2024*
