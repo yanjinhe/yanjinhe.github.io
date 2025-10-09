@@ -17,24 +17,24 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a 4th-year undergraduate student at School of Mathematical Sciences, Peking University. I visited the University of Notre Dame in the summer of 2024 (lucky to be mentored by [Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (lucky to be mentored by [Tong Zhang](https://tongzhang-ml.org/)).
+I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a 4th-year undergraduate student at School of Mathematical Sciences, Peking University. I visited the University of Notre Dame in the summer of 2024 (fortunate to be supervised by [Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (fortunate to be supervised by [Tong Zhang](https://tongzhang-ml.org/)).
 
 My research interests focus on generative models (especially diffusion models) and large language models (LLMs). I have a soild foundation in mathematics, particularly in probability and statistics, which has provided strong theoretical support for my research.
 
-**<font color="#94070A">I am seeking USA PhD (2026 Fall)</font>**
-- GPA: 3.87/4.0 (93.0/100), Major GPA: 3.88/4.0(93.6/100)
+**<font color="#94070A">I am applying for a USA PhD (2026 Fall)</font>**
+- GPA: 93.0/100, Major GPA: 93.6/100
 - **Top 1**, **Data Science and Big Data Technology** major, School of Mathematical Sciences, Peking University
 - Selected Courses: 
   - Mathematical Analysis (I) (96), Geometry (100), Advanced Algebra (I) (99), Abstract Algebra (96), Mathematical Statistics (98)
   - Foundations of Machine Learning (97), Data Structure and Algorithm (96), Introduction to Computation (97), Introduction to Finance (96)
-- If you are interested in me (or just chatting with me), please feel free to email me. Thank you for the opportunity.
+- If you are interested, please feel free to contact me. Thank you for the opportunity.
 
 
 # 🔥 News
 - *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** （Main Conference).
-- *2025.09*: &nbsp;🏅 I was named a **Merit Student**.
-- *2025.09*: &nbsp;🏅 I was awarded the **Leo KoGuan Scholarship**.
-- *2025.06*: &nbsp;✈️ I will go to UIUC for summer intern.
+- *2025.09*: &nbsp;🏅 Named as **Merit Student**.
+- *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
+- *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
 
 
 # 📝 Publications 
@@ -47,7 +47,8 @@ My research interests focus on generative models (especially diffusion models) a
 
 
 # 🏅 Talent Programs
-- **Top Talent Program in Applied Mathematics and Statistics** (**应用数学及统计拔尖人才计划**), Peking University
+- **Elite Undergraduate Program in Applied Mathematics and Statistics** (**应用数学及统计拔尖人才计划**), Peking University, *2024*
+- **Mathematical Talent Program**, Peking University, *2022*
 
 
 # 🏅 Honors and Awards
@@ -66,13 +67,13 @@ My research interests focus on generative models (especially diffusion models) a
 - **Top 10 School Stars**, Affiliated High School of South China Normal University, *2020*
 
 
-# 📖 Educations
-- *2022.09 - 2026.07 (now)*, Undergraduate Student, School of Mathematical Sciences, Peking University
+# 📖 Education
+- *2022.09 - 2026.07*, Undergraduate Student, School of Mathematical Sciences, Peking University
 - *2021.09 - 2022.07*, Senior High School, Affiliated High School of South China Normal University
 - *2018.09 - 2021.07*, Junior High School, Affiliated High School of South China Normal University
 
 
-# 🔬 Research Experience
+# 🔬 Research Experiences
 **Analyze ODE based diffuison under Fokker-Plank Equation**
 - **Supervisor:** [Tong Zhang](https://tongzhang-ml.org/) (UIUC)
 - Doing theoretical analysis of the gap of ODE-based diffusion and SDE-based diffusion under the Fokker-Plank Equation assumption, set up a theoretical bound of the Wasserstein-2 distance of the distribution lead by ODE/SDE diffusion.
