@@ -46,11 +46,11 @@ My research interests focus on generative models (especially diffusion models) a
 [[pdf](https://arxiv.org/pdf/2507.22543)] [[arxiv](https://arxiv.org/abs/2507.22543)]
 
 
-# 🎖️ Talent Programs
+# 🏅 Talent Programs
 - **Top Talent Program in Applied Mathematics and Statistics** (**应用数学及统计拔尖人才计划**), Peking University
 
 
-# 🎖️ Honors and Awards
+# 🏅 Honors and Awards
 - **Merit Student**, Peking University, *2025*
 - **Leo KoGuan Scholarship**, Peking University, *2025*
 - **Merit Student**, Peking University, *2024*
