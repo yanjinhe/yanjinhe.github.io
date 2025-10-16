@@ -38,7 +38,6 @@ My research interests focus on generative models (especially diffusion models) a
 
 
 # 📝 Publications 
-(\*: Equal Contribution)
 
 - **Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law**\\
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
