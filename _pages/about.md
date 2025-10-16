@@ -22,7 +22,7 @@ I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a 4th-year undergraduate st
 My research interests focus on generative models (especially diffusion models) and large language models (LLMs). I have a soild foundation in mathematics, particularly in probability and statistics, which has provided strong theoretical support for my research.
 
 **<font color="#94070A">I am applying for a USA PhD (2026 Fall)</font>**
-- GPA: 93.0/100, Major GPA: 93.6/100
+- GPA: 93.1/100, Major core GPA: 94.1/100
 - **Top 1**, **Data Science and Big Data Technology** major, School of Mathematical Sciences, Peking University
 - Selected Courses: 
   - Mathematical Analysis (I) (96), Geometry (100), Advanced Algebra (I) (99), Abstract Algebra (96), Mathematical Statistics (98)
