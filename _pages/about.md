@@ -31,6 +31,7 @@ My research interests focus on generative models (especially diffusion models) a
 
 
 # 🔥 News
+- *2025.11*: &nbsp;✈️ Presented our poster at **EMNLP 2025** in Suzhou.
 - *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** （Main Conference).
 - *2025.09*: &nbsp;🏅 Named as **Merit Student**.
 - *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
