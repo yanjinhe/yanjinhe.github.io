@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yanjin He (何彦瑾)"
-description              : "Undergraduate student, School of Mathematical Sciences, Peking University"
+description              : "Ph.D. student, EECS, University of Michigan"
 repository               : "yanjinhe/yanjinhe.github.io"
 
 # google analytics (leave empty to disable; a real ID looks like "G-XXXXXXXXXX")
@@ -22,14 +22,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yanjin He"
   avatar           : "images/avatar.jpg"
-  bio              : "Peking University"
-  location         : "Beijing, China"
+  bio              : "University of Michigan"
+  location         : "Ann Arbor, MI, USA"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=hLui1LQAAAAJ"
-  email            : "yanjinhe@gmail.com"
+  email            : "yanjinhe@umich.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "http://yanjinhe.github.io"
+  uri              :  # leave empty to hide the "Website" link in the sidebar
   bitbucket        :
   codepen          :
   dribbble         :
