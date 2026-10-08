@@ -10,9 +10,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a 4th-year undergraduate student at School of Mathematical Sciences, Peking University. I visited the University of Notre Dame in the summer of 2024 (fortunate to be supervised by [Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (fortunate to be supervised by [Tong Zhang](https://tongzhang-ml.org/)).
+I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student in [EECS](https://ece.engin.umich.edu/) at the University of Michigan, Ann Arbor, advised by [Prof. Qing Qu](https://qingqu.engin.umich.edu/). Before coming to Michigan, I received my bachelor's degree from the School of Mathematical Sciences at Peking University. During my undergraduate years, I was fortunate to spend the summer of 2024 at the University of Notre Dame working with [Prof. Meng Jiang](http://www.meng-jiang.com/), and the summer of 2025 at UIUC working with [Prof. Tong Zhang](https://tongzhang-ml.org/).
 
-My research interests focus on generative models (especially diffusion models) and large language models (LLMs). I have a soild foundation in mathematics, particularly in probability and statistics, which has provided strong theoretical support for my research.
+My research interests focus on generative models (especially diffusion models) and large language models (LLMs). I have a solid foundation in mathematics, particularly in probability and statistics, which has provided strong theoretical support for my research.
 
 **<font color="#94070A">I am applying for a USA PhD (2026 Fall)</font>**
 - GPA: 93.1/100, Major core GPA: 94.1/100
