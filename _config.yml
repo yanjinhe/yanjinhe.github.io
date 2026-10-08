@@ -9,10 +9,9 @@
 title                    : "Yanjin He (何彦瑾)"
 description              : "Undergraduate student, School of Mathematical Sciences, Peking University"
 repository               : "yanjinhe/yanjinhe.github.io"
-google_scholar_stats_use_cdn : true
 
-# google analytics
-google_analytics_id      :  "hLui1LQAAAAJ" # get google_analytics_id from https://analytics.google.com/analytics/
+# google analytics (leave empty to disable; a real ID looks like "G-XXXXXXXXXX")
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
@@ -66,7 +65,6 @@ include:
   - files
 exclude:
   - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

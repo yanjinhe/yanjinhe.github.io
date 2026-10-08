@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a 4th-year undergraduate student at School of Mathematical Sciences, Peking University. I visited the University of Notre Dame in the summer of 2024 (fortunate to be supervised by [Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (fortunate to be supervised by [Tong Zhang](https://tongzhang-ml.org/)).
