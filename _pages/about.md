@@ -15,6 +15,7 @@ I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student 
 My research focuses on generative models, especially diffusion models for both vision and language. I work on the representation spaces in which generative models operate, and on better training and sampling for diffusion models. I am also interested in the theory behind generative models.
 
 # Education
+
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
   <div class="cv-row"><span class="cv-left"><em>Ph.D. in Electrical Engineering and Computer Science</em></span><span class="cv-right"><em>Sep. 2026 - Present</em></span></div>
@@ -50,6 +51,12 @@ My research focuses on generative models, especially diffusion models for both v
 
 
 # Publications
+
+- **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](https://openreview.net/forum?id=1bF7B1bzn3)**\\
+**<u>Yanjin He</u>**, Cuifeng Shen, Wanzhou Lei, Maohua Li, Tao Lan, Kan Liu, Hanlin Tang, Qing Qu\\
+**_Under review_**, 2026\\
+[[pdf](/papers/swift.pdf)] <span style="color:#999">[arxiv]</span>
+
 - **[Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016)**\\
 Zekai Zhang, Yunjie Tian, **<u>Yanjin He</u>**, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu\\
 **_arXiv preprint_**, 2026\\
