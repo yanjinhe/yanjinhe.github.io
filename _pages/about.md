@@ -97,21 +97,31 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - **Top 10 School Stars**, Affiliated High School of South China Normal University, *2020*
 
 
-# Research Experiences
-**Analyze ODE based diffuison under Fokker-Plank Equation**
-- **Supervisor:** [Tong Zhang](https://tongzhang-ml.org/) (UIUC)
-- Doing theoretical analysis of the gap of ODE-based diffusion and SDE-based diffusion under the Fokker-Plank Equation assumption, set up a theoretical bound of the Wasserstein-2 distance of the distribution lead by ODE/SDE diffusion.
-- Analysing the convergence rate of ODE based diffusion, getting a good bound for ODE-based diffuison by controlling the divergence error and the Fokker-Plank error of score function, which could motivate us a better training objective for diffusion model.
+# Research Experience
 
-**Investigate the Impact of Tokenizers and decide the optimal tokenizer for pre-trained models**
-- **Supervisor:** [Meng Jiang](http://www.meng-jiang.com/) (University of Notre Dame)
-- Doing extensive experiments across NLP, genomics, and chemistry demonstrate that models consistently achieve peak performance when the token distribution closely adheres to Zipf's law, which inspire us a criterion for deciding the tokenizer.
-- Proposed a method for selecting the most suitable tokenizer for different datasets prior to pre-training and fine-tuning process. Experiments over several domains has proven the robustness nad effectiveness of our method.
-- [Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law](https://arxiv.org/abs/2507.22543), **_EMNLP 2025_**（Main Conference)
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>Alibaba Group</strong></span><span class="cv-right">Hangzhou, China</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang</span><span class="cv-right"><em>Summer 2026</em></span></div>
+  <div class="cv-row"><span class="cv-left">Self-guided training of diffusion models (SWIFT) and real-world super-resolution in a frozen vision-foundation latent space (RAESR).</span></div>
+</div>
 
-**Inference-Time Guidance of ODE-Based Diffusion Models via Langevin Dynamics**
-- **Supervisors:** [Liwei Wang](http://www.liweiwang-pku.com/), [Di He](https://dihe-pku.github.io/) (Peking University)
-- Combining the Langevin process with the energy-based distribution lead by KL-regularized Reinforcement Learning Objective, we derive a inference time refinement for diffusion model to increase the expected reward of generated images under a specfic differentiable reward function. This method could not only be used to increase the image quality, but also guide the diffusion model toward generating images of specific categories.
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Illinois Urbana-Champaign</strong></span><span class="cv-right">Urbana, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span><span class="cv-right"><em>Summer 2025</em></span></div>
+  <div class="cv-row"><span class="cv-left">Convergence analysis of score-based diffusion models: the ODE&ndash;SDE gap under the Fokker&ndash;Planck equation. [<a href="/papers/diffusion-theory.pdf">PDF</a>]</span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Notre Dame</strong></span><span class="cv-right">Notre Dame, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span><span class="cv-right"><em>Summer 2024</em></span></div>
+  <div class="cv-row"><span class="cv-left">Tokenization and Zipf's law in pre-trained models (EMNLP 2025).</span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>Peking University</strong></span><span class="cv-right">Beijing, China</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Undergraduate Researcher</em>, advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a></span><span class="cv-right"><em>2024 - 2026</em></span></div>
+  <div class="cv-row"><span class="cv-left">Inference-time guidance of diffusion models via Langevin dynamics.</span></div>
+</div>
 
 
 # Links
