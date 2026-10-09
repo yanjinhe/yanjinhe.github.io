@@ -101,25 +101,25 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>Alibaba Group</strong></span><span class="cv-right">Hangzhou, China</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang</span><span class="cv-right"><em>Summer 2026</em></span></div>
+  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang</span></div>
   <div class="cv-row"><span class="cv-left">Self-guided training of diffusion models (SWIFT) and real-world super-resolution in a frozen vision-foundation latent space (RAESR).</span></div>
 </div>
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Illinois Urbana-Champaign</strong></span><span class="cv-right">Urbana, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span><span class="cv-right"><em>Summer 2025</em></span></div>
-  <div class="cv-row"><span class="cv-left">Convergence analysis of score-based diffusion models: the ODE&ndash;SDE gap under the Fokker&ndash;Planck equation. [<a href="/papers/diffusion-theory.pdf">PDF</a>]</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span></div>
+  <div class="cv-row"><span class="cv-left">Convergence analysis of score-based diffusion models: the ODE&ndash;SDE gap under the Fokker&ndash;Planck equation.</span></div>
 </div>
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Notre Dame</strong></span><span class="cv-right">Notre Dame, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span><span class="cv-right"><em>Summer 2024</em></span></div>
+  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span></div>
   <div class="cv-row"><span class="cv-left">Tokenization and Zipf's law in pre-trained models (EMNLP 2025).</span></div>
 </div>
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>Peking University</strong></span><span class="cv-right">Beijing, China</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Undergraduate Researcher</em>, advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a></span><span class="cv-right"><em>2024 - 2026</em></span></div>
+  <div class="cv-row"><span class="cv-left"><em>Undergraduate Researcher</em>, advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a></span></div>
   <div class="cv-row"><span class="cv-left">Inference-time guidance of diffusion models via Langevin dynamics.</span></div>
 </div>
 
