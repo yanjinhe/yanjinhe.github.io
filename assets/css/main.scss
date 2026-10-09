@@ -107,3 +107,22 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* CV-style entries (Education, experiences): left text with right-aligned place / dates */
+.cv-item {
+    margin-bottom: 1em;
+}
+
+.cv-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: 1em;
+}
+
+.cv-right {
+    white-space: nowrap;
+    margin-left: auto;
+    text-align: right;
+}

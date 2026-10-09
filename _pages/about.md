@@ -15,10 +15,22 @@ I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student 
 My research focuses on generative models, especially diffusion models for both vision and language. I work on the representation spaces in which generative models operate, and on better training and sampling for diffusion models. I am also interested in the theory behind generative models.
 
 # 📖 Education
-- *2026.09 - present*, Ph.D. Student, Electrical Engineering and Computer Science, University of Michigan, Ann Arbor
-- *2022.09 - 2026.07*, Undergraduate Student, School of Mathematical Sciences, Peking University
-- *2021.09 - 2022.07*, Senior High School, Affiliated High School of South China Normal University
-- *2018.09 - 2021.07*, Junior High School, Affiliated High School of South China Normal University
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Ph.D. in Electrical Engineering and Computer Science</em></span><span class="cv-right"><em>Sep. 2026 - Present</em></span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>Peking University, School of Mathematical Sciences</strong></span><span class="cv-right">Beijing, China</span></div>
+  <div class="cv-row"><span class="cv-left"><em>B.S. in Data Science and Big Data Technology</em></span><span class="cv-right"><em>Sep. 2022 - Jul. 2026</em></span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>Affiliated High School of South China Normal University</strong></span><span class="cv-right">Guangzhou, China</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Senior High School</em></span><span class="cv-right"><em>Sep. 2021 - Jul. 2022</em></span></div>
+  <div class="cv-row"><span class="cv-left"><em>Junior High School</em></span><span class="cv-right"><em>Sep. 2018 - Jul. 2021</em></span></div>
+</div>
 
 
 # 🔥 News
