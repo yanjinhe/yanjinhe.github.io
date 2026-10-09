@@ -25,6 +25,7 @@ My research focuses on generative models, especially diffusion models for both v
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>Peking University, School of Mathematical Sciences</strong></span><span class="cv-right">Beijing, China</span></div>
   <div class="cv-row"><span class="cv-left"><em>B.S. in Mathematics</em></span><span class="cv-right"><em>Sep. 2022 - Jul. 2026</em></span></div>
+  <div class="cv-row"><span class="cv-left">Advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a></span></div>
   <div class="cv-row"><span class="cv-left"><strong style="color:#94070A">Ranked 1st in the major</strong></span></div>
 </div>
 
