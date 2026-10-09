@@ -54,23 +54,23 @@ My research focuses on generative models, especially diffusion models for both v
 
 - **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](https://openreview.net/forum?id=1bF7B1bzn3)**\\
 **<u>Yanjin He</u>**, Cuifeng Shen, Wanzhou Lei, Maohua Li, Tao Lan, Kan Liu, Hanlin Tang, Qing Qu\\
-**_Under review_**, 2026\\
-[[pdf](/papers/swift.pdf)] <span style="color:#999">[arxiv]</span>
+**_arXiv preprint_**, 2026\\
+[[PDF](/papers/swift.pdf)] <span style="color:#999">[arXiv]</span>
 
 - **[Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016)**\\
 Zekai Zhang, Yunjie Tian, **<u>Yanjin He</u>**, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu\\
 **_arXiv preprint_**, 2026\\
-[[pdf](https://arxiv.org/pdf/2610.01016)] [[arxiv](https://arxiv.org/abs/2610.01016)] [[github](https://github.com/la0ka1/diffusing-scaled-text-embeddings)]
+[[PDF](https://arxiv.org/pdf/2610.01016)] [[arXiv](https://arxiv.org/abs/2610.01016)] [[GitHub](https://github.com/la0ka1/diffusing-scaled-text-embeddings)]
 
 - **[Super-Resolution in the Right Latent Space: A Frozen Vision-Foundation Substrate](https://arxiv.org/abs/2610.04781)**\\
 Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof Persson, Tao Lan, Kan Liu, Hanlin Tang\\
 **_arXiv preprint_**, 2026\\
-[[pdf](https://arxiv.org/pdf/2610.04781)] [[arxiv](https://arxiv.org/abs/2610.04781)]
+[[PDF](https://arxiv.org/pdf/2610.04781)] [[arXiv](https://arxiv.org/abs/2610.04781)]
 
 - **[Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law](https://aclanthology.org/2025.emnlp-main.1421/)**\\
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
 **_EMNLP 2025_** (Main Conference)\\
-[[pdf](https://arxiv.org/pdf/2507.22543)] [[arxiv](https://arxiv.org/abs/2507.22543)] [[github](https://github.com/yanjinhe/Tokenizer)]
+[[PDF](https://arxiv.org/pdf/2507.22543)] [[arXiv](https://arxiv.org/abs/2507.22543)] [[GitHub](https://github.com/yanjinhe/Tokenizer)]
 
 
 # Talent Programs
