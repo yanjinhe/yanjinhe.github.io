@@ -107,7 +107,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>Alibaba Group</strong></span><span class="cv-right">Hangzhou, China</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang and Cuifeng Shen</span></div>
   <div class="cv-row"><span class="cv-left">Self-guided training of diffusion models.</span></div>
   <div class="cv-row"><span class="cv-left">Super-resolution in the right latent space.</span></div>
 </div>
