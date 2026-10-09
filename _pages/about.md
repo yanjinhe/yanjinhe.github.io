@@ -23,7 +23,7 @@ My research focuses on generative models, especially diffusion models for both v
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>Peking University, School of Mathematical Sciences</strong></span><span class="cv-right">Beijing, China</span></div>
-  <div class="cv-row"><span class="cv-left"><em>B.S. in Mathematics</em></span><span class="cv-right"><em>Sep. 2022 - Jul. 2026</em></span></div>
+  <div class="cv-row"><span class="cv-left"><em>B.S. in Mathematics (Ranked 1st in the major)</em></span><span class="cv-right"><em>Sep. 2022 - Jul. 2026</em></span></div>
 </div>
 
 <div class="cv-item">
