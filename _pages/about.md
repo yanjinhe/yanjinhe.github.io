@@ -52,10 +52,20 @@ My research focuses on generative models, especially diffusion models for both v
 
 # 📝 Publications 
 
-- **Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law**\\
+- **[Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016)**\\
+Zekai Zhang, Yunjie Tian, **<u>Yanjin He</u>**, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu\\
+**_arXiv preprint_**, 2026\\
+[[pdf](https://arxiv.org/pdf/2610.01016)] [[arxiv](https://arxiv.org/abs/2610.01016)] [[github](https://github.com/la0ka1/diffusing-scaled-text-embeddings)]
+
+- **[Super-Resolution in the Right Latent Space: A Frozen Vision-Foundation Substrate](https://arxiv.org/abs/2610.04781)**\\
+Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof Persson, Tao Lan, Kan Liu, Hanlin Tang\\
+**_arXiv preprint_**, 2026\\
+[[pdf](https://arxiv.org/pdf/2610.04781)] [[arxiv](https://arxiv.org/abs/2610.04781)]
+
+- **[Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law](https://aclanthology.org/2025.emnlp-main.1421/)**\\
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
 **_EMNLP 2025_** (Main Conference)\\
-[[pdf](https://arxiv.org/pdf/2507.22543)] [[arxiv](https://arxiv.org/abs/2507.22543)]
+[[pdf](https://arxiv.org/pdf/2507.22543)] [[arxiv](https://arxiv.org/abs/2507.22543)] [[github](https://github.com/yanjinhe/Tokenizer)]
 
 
 # 🏅 Talent Programs
