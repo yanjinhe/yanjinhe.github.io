@@ -38,20 +38,6 @@ I am always happy to chat about any of these topics — feel free to reach out a
 </div>
 
 
-# 🔥 News
-- *2026.10*: &nbsp;📄 Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
-- *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by Prof. Qing Qu.
-- *2026.06*: &nbsp;✈️ Started a research internship at **Alibaba** in Hangzhou.
-- *2026.06*: &nbsp;🏅 Awarded **Outstanding Graduate of Peking University**.
-- *2026.06*: &nbsp;🎓 Graduated from **Peking University** with a B.S. in Mathematics.
-- *2026.03*: &nbsp;🎤 Gave a talk at **Wuhan University**.
-- *2025.11*: &nbsp;✈️ Presented our poster at **EMNLP 2025** in Suzhou.
-- *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** (Main Conference).
-- *2025.09*: &nbsp;🏅 Named as **Merit Student**.
-- *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
-- *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
-
-
 # Publications
 
 - **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](https://openreview.net/forum?id=1bF7B1bzn3)**\\
@@ -73,6 +59,20 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
 **_EMNLP 2025_** (Main Conference)\\
 [[PDF](https://arxiv.org/pdf/2507.22543)] [[arXiv](https://arxiv.org/abs/2507.22543)] [[GitHub](https://github.com/yanjinhe/Tokenizer)]
+
+
+# 🔥 News
+- *2026.10*: &nbsp;📄 Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
+- *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by Prof. Qing Qu.
+- *2026.06*: &nbsp;✈️ Started a research internship at **Alibaba** in Hangzhou.
+- *2026.06*: &nbsp;🏅 Awarded **Outstanding Graduate of Peking University**.
+- *2026.06*: &nbsp;🎓 Graduated from **Peking University** with a B.S. in Mathematics.
+- *2026.03*: &nbsp;🎤 Gave a talk at **Wuhan University**.
+- *2025.11*: &nbsp;✈️ Presented our poster at **EMNLP 2025** in Suzhou.
+- *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** (Main Conference).
+- *2025.09*: &nbsp;🏅 Named as **Merit Student**.
+- *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
+- *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
 
 
 # Talent Programs
