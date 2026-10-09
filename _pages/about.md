@@ -78,13 +78,13 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Illinois Urbana-Champaign</strong></span><span class="cv-right">Urbana, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span></div>
+  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span></div>
   <div class="cv-row"><span class="cv-left">Convergence analysis of score-based diffusion models under the Fokker&ndash;Planck equation.</span></div>
 </div>
 
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Notre Dame</strong></span><span class="cv-right">Notre Dame, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span></div>
+  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span></div>
   <div class="cv-row"><span class="cv-left">Tokenization for pre-trained models.</span></div>
 </div>
 
