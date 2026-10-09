@@ -61,6 +61,40 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 [[PDF](https://arxiv.org/pdf/2507.22543)] [[arXiv](https://arxiv.org/abs/2507.22543)] [[GitHub](https://github.com/yanjinhe/Tokenizer)]
 
 
+# Research Experience
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Graduate Research Assistant</em>, advised by <a href="https://qingqu.engin.umich.edu/">Qing Qu</a></span></div>
+  <div class="cv-row"><span class="cv-left">Diffusion models for vision and language.</span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>Alibaba Group</strong></span><span class="cv-right">Hangzhou, China</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by <a href="https://openreview.net/profile?id=~Hanlin_Tang2">Hanlin Tang</a> and <a href="https://openreview.net/profile?id=~Cuifeng_Shen1">Cuifeng Shen</a></span></div>
+  <div class="cv-row"><span class="cv-left">Self-guided training of diffusion models.</span></div>
+  <div class="cv-row"><span class="cv-left">Super-resolution in the right latent space.</span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Illinois Urbana-Champaign</strong></span><span class="cv-right">Urbana, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span></div>
+  <div class="cv-row"><span class="cv-left">Convergence analysis of score-based diffusion models under the Fokker&ndash;Planck equation.</span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Notre Dame</strong></span><span class="cv-right">Notre Dame, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span></div>
+  <div class="cv-row"><span class="cv-left">Tokenization for pre-trained models.</span></div>
+</div>
+
+<div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>Peking University</strong></span><span class="cv-right">Beijing, China</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Undergraduate Researcher</em>, advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a></span></div>
+  <div class="cv-row"><span class="cv-left">Inference-time guidance of diffusion models via Langevin dynamics.</span></div>
+</div>
+
+
 # 🔥 News
 - *2026.10*: &nbsp;📄 Two papers on diffusion models and one paper on diffusion language models are now available on arXiv.
 - *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan, Ann Arbor**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by [Prof. Qing Qu](https://qingqu.engin.umich.edu/).
@@ -95,43 +129,3 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - **Gold Medalist**, Chinese Mathematical Olympiad (CMO Finals), *2021*
 - **Outstanding Graduate**, Affiliated High School of South China Normal University, *2021*
 - **Top 10 School Stars**, Affiliated High School of South China Normal University, *2020*
-
-
-# Research Experience
-
-<div class="cv-item">
-  <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Graduate Research Assistant</em>, advised by <a href="https://qingqu.engin.umich.edu/">Qing Qu</a></span></div>
-  <div class="cv-row"><span class="cv-left">Diffusion models for vision and language.</span></div>
-</div>
-
-<div class="cv-item">
-  <div class="cv-row"><span class="cv-left"><strong>Alibaba Group</strong></span><span class="cv-right">Hangzhou, China</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang and Cuifeng Shen</span></div>
-  <div class="cv-row"><span class="cv-left">Self-guided training of diffusion models.</span></div>
-  <div class="cv-row"><span class="cv-left">Super-resolution in the right latent space.</span></div>
-</div>
-
-<div class="cv-item">
-  <div class="cv-row"><span class="cv-left"><strong>University of Illinois Urbana-Champaign</strong></span><span class="cv-right">Urbana, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="https://tongzhang-ml.org/">Tong Zhang</a></span></div>
-  <div class="cv-row"><span class="cv-left">Convergence analysis of score-based diffusion models under the Fokker&ndash;Planck equation.</span></div>
-</div>
-
-<div class="cv-item">
-  <div class="cv-row"><span class="cv-left"><strong>University of Notre Dame</strong></span><span class="cv-right">Notre Dame, U.S.A.</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Summer Research Intern</em>, advised by <a href="http://www.meng-jiang.com/">Meng Jiang</a></span></div>
-  <div class="cv-row"><span class="cv-left">Tokenization for pre-trained models.</span></div>
-</div>
-
-<div class="cv-item">
-  <div class="cv-row"><span class="cv-left"><strong>Peking University</strong></span><span class="cv-right">Beijing, China</span></div>
-  <div class="cv-row"><span class="cv-left"><em>Undergraduate Researcher</em>, advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a></span></div>
-  <div class="cv-row"><span class="cv-left">Inference-time guidance of diffusion models via Langevin dynamics.</span></div>
-</div>
-
-
-# Links
-(Alphabetical Order) 
-- **Advisors & Senior Co-authors**: [Di He](https://dihe-pku.github.io/) (Peking University), [Meng Jiang](http://www.meng-jiang.com/) (University of Notre Dame), [Liwei Wang](http://www.liweiwang-pku.com/) (Peking University), [Tong Zhang](https://tongzhang-ml.org/) (UIUC)
-- **Co-authors**: [Nishant Jain](https://scholar.google.com/citations?user=VKcqFW8AAAAJ) (UIUC), [Qingkai Zeng](https://qingkaizeng.github.io/) (University of Notre Dame)

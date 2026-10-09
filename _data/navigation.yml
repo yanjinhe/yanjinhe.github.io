@@ -11,14 +11,11 @@ main:
   - title: "Publications"
     url: "/#publications"
 
+  - title: "Research Experience"
+    url: "/#research-experience"
+
   - title: "News"
     url: "/#-news"
 
   - title: "Honors and Awards"
     url: "/#honors-and-awards"
-
-  - title: "Research Experience"
-    url: "/#research-experience"
-
-  - title: "Links"
-    url: "/#links"
