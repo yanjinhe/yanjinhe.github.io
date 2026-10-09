@@ -62,7 +62,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 
 
 # 🔥 News
-- *2026.10*: Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
+- *2026.10*: Two papers on diffusion models and one paper on diffusion language models are now available on arXiv.
 - *2026.09*: Started my Ph.D. in EECS at the **University of Michigan, Ann Arbor**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by [Prof. Qing Qu](https://qingqu.engin.umich.edu/).
 - *2026.06*: Started a research internship at **Alibaba** in Hangzhou.
 - *2026.06*: Awarded **Outstanding Graduate of Peking University**.
