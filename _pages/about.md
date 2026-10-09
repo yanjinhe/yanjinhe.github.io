@@ -19,6 +19,7 @@ My research focuses on generative models, especially diffusion models for both v
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
   <div class="cv-row"><span class="cv-left"><em>Ph.D. in Electrical Engineering and Computer Science</em></span><span class="cv-right"><em>Sep. 2026 - Present</em></span></div>
+  <div class="cv-row"><span class="cv-left">Advised by <a href="https://qingqu.engin.umich.edu/">Qing Qu</a></span></div>
 </div>
 
 <div class="cv-item">
