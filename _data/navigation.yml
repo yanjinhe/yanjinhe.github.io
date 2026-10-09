@@ -1,22 +1,24 @@
 # main links links
+# Anchor ids are generated from the heading text (GFM style): the emoji in
+# "# 🔥 News" turns into a leading "-", headings without an emoji do not have it.
 main:
   - title: "About Me"
     url: "/#about-me"
 
   - title: "Education"
-    url: "/#-education"
+    url: "/#education"
 
   - title: "News"
     url: "/#-news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
 
   - title: "Research Experiences"
-    url: "/#-research-experiences"
+    url: "/#research-experiences"
 
   - title: "Links"
-    url: "/#-links"
+    url: "/#links"

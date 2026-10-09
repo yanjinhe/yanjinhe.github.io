@@ -14,8 +14,7 @@ I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student 
 
 My research focuses on generative models, especially diffusion models for both vision and language. I work on the representation spaces in which generative models operate, and on better training and sampling for diffusion models. I am also interested in the theory behind generative models.
 
-# 📖 Education
-
+# Education
 <div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
   <div class="cv-row"><span class="cv-left"><em>Ph.D. in Electrical Engineering and Computer Science</em></span><span class="cv-right"><em>Sep. 2026 - Present</em></span></div>
@@ -38,7 +37,7 @@ My research focuses on generative models, especially diffusion models for both v
 
 # 🔥 News
 - *2026.10*: &nbsp;📄 Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
-- *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan**, joining the **DeepThink Lab** led by Prof. Qing Qu.
+- *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by Prof. Qing Qu.
 - *2026.06*: &nbsp;✈️ Started a research internship at **Alibaba** in Hangzhou.
 - *2026.06*: &nbsp;🏅 Awarded **Outstanding Graduate of Peking University**.
 - *2026.06*: &nbsp;🎓 Graduated from **Peking University** with a B.S. in Mathematics.
@@ -50,8 +49,7 @@ My research focuses on generative models, especially diffusion models for both v
 - *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
 
 
-# 📝 Publications 
-
+# Publications
 - **[Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016)**\\
 Zekai Zhang, Yunjie Tian, **<u>Yanjin He</u>**, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu\\
 **_arXiv preprint_**, 2026\\
@@ -68,12 +66,12 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 [[pdf](https://arxiv.org/pdf/2507.22543)] [[arxiv](https://arxiv.org/abs/2507.22543)] [[github](https://github.com/yanjinhe/Tokenizer)]
 
 
-# 🏅 Talent Programs
+# Talent Programs
 - **Elite Undergraduate Program in Applied Mathematics and Statistics** (**应用数学及统计拔尖人才计划**), Peking University, *2024*
 - **Mathematical Talent Program**, Peking University, *2022*
 
 
-# 🏅 Honors and Awards
+# Honors and Awards
 - **Outstanding Graduate**, Peking University, *2026*
 - **Merit Student**, Peking University, *2025*
 - **Leo KoGuan Scholarship**, Peking University, *2025*
@@ -90,7 +88,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - **Top 10 School Stars**, Affiliated High School of South China Normal University, *2020*
 
 
-# 🔬 Research Experiences
+# Research Experiences
 **Analyze ODE based diffuison under Fokker-Plank Equation**
 - **Supervisor:** [Tong Zhang](https://tongzhang-ml.org/) (UIUC)
 - Doing theoretical analysis of the gap of ODE-based diffusion and SDE-based diffusion under the Fokker-Plank Equation assumption, set up a theoretical bound of the Wasserstein-2 distance of the distribution lead by ODE/SDE diffusion.
@@ -107,7 +105,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - Combining the Langevin process with the energy-based distribution lead by KL-regularized Reinforcement Learning Objective, we derive a inference time refinement for diffusion model to increase the expected reward of generated images under a specfic differentiable reward function. This method could not only be used to increase the image quality, but also guide the diffusion model toward generating images of specific categories.
 
 
-# 🔗 Links
+# Links
 (Alphabetical Order) 
 - **Advisors & Senior Co-authors**: [Di He](https://dihe-pku.github.io/) (Peking University), [Meng Jiang](http://www.meng-jiang.com/) (University of Notre Dame), [Liwei Wang](http://www.liweiwang-pku.com/) (Peking University), [Tong Zhang](https://tongzhang-ml.org/) (UIUC)
 - **Co-authors**: [Nishant Jain](https://scholar.google.com/citations?user=VKcqFW8AAAAJ) (UIUC), [Qingkai Zeng](https://qingkaizeng.github.io/) (University of Notre Dame)
