@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student in [EECS at the University of Michigan, Ann Arbor](https://ece.engin.umich.edu/), advised by [Prof. Qing Qu](https://qingqu.engin.umich.edu/). Before coming to Michigan, I received my bachelor's degree from the [School of Mathematical Sciences at Peking University](https://math-en.pku.edu.cn/). During my undergraduate years, I visited the University of Notre Dame in the summer of 2024 (fortunate to be supervised by [Prof. Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (fortunate to be supervised by [Prof. Tong Zhang](https://tongzhang-ml.org/)).
+I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student in [Electrical Engineering and Computer Science](https://ece.engin.umich.edu/) at the University of Michigan, Ann Arbor, advised by [Prof. Qing Qu](https://qingqu.engin.umich.edu/). Before coming to Michigan, I received my bachelor's degree from the [School of Mathematical Sciences](https://math-en.pku.edu.cn/) at Peking University. During my undergraduate years, I visited the University of Notre Dame in the summer of 2024 (fortunate to be supervised by [Prof. Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (fortunate to be supervised by [Prof. Tong Zhang](https://tongzhang-ml.org/)).
 
 My research interests focus on generative models (especially diffusion models) and large language models (LLMs). I have a solid foundation in mathematics, particularly in probability and statistics, which has provided strong theoretical support for my research.
 
