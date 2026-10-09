@@ -14,6 +14,8 @@ I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student 
 
 My research focuses on generative models, especially diffusion models for both vision and language. I work on the representation spaces in which generative models operate, and on better training and sampling for diffusion models. I am also interested in the theory behind generative models.
 
+I am always happy to chat about any of these topics — feel free to reach out at [yanjinhe@umich.edu](mailto:yanjinhe@umich.edu).
+
 # Education
 
 <div class="cv-item">
