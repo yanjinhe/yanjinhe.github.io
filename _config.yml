@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yanjin He"
   avatar           : "images/avatar.jpg"
-  bio              : "University of Michigan"
+  bio              :  # left empty; the line under the name comes from `description` above
   location         : "Ann Arbor, Michigan, USA"
   employer         :
   pubmed           :
