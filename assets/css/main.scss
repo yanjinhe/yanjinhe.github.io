@@ -108,6 +108,11 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+/* Bold text in black; regular text keeps the theme's dark gray */
+strong, b {
+    color: #000;
+}
+
 /* CV-style entries (Education, experiences): left text with right-aligned place / dates */
 .cv-item {
     margin-bottom: 1em;
