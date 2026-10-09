@@ -12,7 +12,7 @@ redirect_from:
 
 I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student in [Electrical Engineering and Computer Science](https://ece.engin.umich.edu/) at the University of Michigan, Ann Arbor, advised by [Prof. Qing Qu](https://qingqu.engin.umich.edu/). Before coming to Michigan, I received my bachelor's degree from the [School of Mathematical Sciences](https://math-en.pku.edu.cn/) at Peking University. During my undergraduate years, I visited the University of Notre Dame in the summer of 2024 (fortunate to be supervised by [Prof. Meng Jiang](http://www.meng-jiang.com/)), and I visited UIUC in the summer of 2025 (fortunate to be supervised by [Prof. Tong Zhang](https://tongzhang-ml.org/)).
 
-My research focuses on generative models, especially diffusion models for both vision and language. I work on the representations on which generative models operate and on how diffusion models are trained, and I am also interested in the theory behind generative models.
+My research focuses on generative models, especially diffusion models for both vision and language. I work on the representations on which generative models operate and on improving the training and sampling of diffusion models. I am also interested in the theory behind generative models.
 
 **<font color="#94070A">I am applying for a USA PhD (2026 Fall)</font>**
 - GPA: 93.1/100, Major core GPA: 94.1/100
