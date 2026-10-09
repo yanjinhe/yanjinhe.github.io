@@ -14,13 +14,11 @@ I'm Yanjin He (<font face=STKaiti>何彦瑾</font>), a first-year Ph.D. student 
 
 My research focuses on generative models, especially diffusion models for both vision and language. I work on the representation spaces in which generative models operate, and on better training and sampling for diffusion models. I am also interested in the theory behind generative models.
 
-**<font color="#94070A">I am applying for a USA PhD (2026 Fall)</font>**
-- GPA: 93.1/100, Major core GPA: 94.1/100
-- **Top 1**, **Data Science and Big Data Technology** major, School of Mathematical Sciences, Peking University
-- Selected Courses: 
-  - Mathematical Analysis (I) (96), Geometry (100), Advanced Algebra (I) (99), Abstract Algebra (96), Mathematical Statistics (98)
-  - Foundations of Machine Learning (97), Data Structure and Algorithm (96), Introduction to Computation (97), Introduction to Finance (96)
-- If you are interested, please feel free to contact me. Thank you for the opportunity.
+# 📖 Education
+- *2026.09 - present*, Ph.D. Student, Electrical Engineering and Computer Science, University of Michigan, Ann Arbor
+- *2022.09 - 2026.07*, Undergraduate Student, School of Mathematical Sciences, Peking University
+- *2021.09 - 2022.07*, Senior High School, Affiliated High School of South China Normal University
+- *2018.09 - 2021.07*, Junior High School, Affiliated High School of South China Normal University
 
 
 # 🔥 News
@@ -58,12 +56,6 @@ My research focuses on generative models, especially diffusion models for both v
 - **Gold Medalist**, Chinese Mathematical Olympiad (CMO Finals), *2021*
 - **Outstanding Graduate**, Affiliated High School of South China Normal University, *2021*
 - **Top 10 School Stars**, Affiliated High School of South China Normal University, *2020*
-
-
-# 📖 Education
-- *2022.09 - 2026.07*, Undergraduate Student, School of Mathematical Sciences, Peking University
-- *2021.09 - 2022.07*, Senior High School, Affiliated High School of South China Normal University
-- *2018.09 - 2021.07*, Junior High School, Affiliated High School of South China Normal University
 
 
 # 🔬 Research Experiences
