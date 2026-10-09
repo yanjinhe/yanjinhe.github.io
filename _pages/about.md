@@ -37,8 +37,14 @@ My research focuses on generative models, especially diffusion models for both v
 
 
 # 🔥 News
+- *2026.10*: &nbsp;📄 Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
+- *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan**, joining the **DeepThink Lab** led by Prof. Qing Qu.
+- *2026.06*: &nbsp;✈️ Started a research internship at **Alibaba** in Hangzhou.
+- *2026.06*: &nbsp;🏅 Awarded **Outstanding Graduate of Peking University**.
+- *2026.06*: &nbsp;🎓 Graduated from **Peking University** with a B.S. in Mathematics.
+- *2026.03*: &nbsp;🎤 Gave a talk at **Wuhan University**.
 - *2025.11*: &nbsp;✈️ Presented our poster at **EMNLP 2025** in Suzhou.
-- *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** （Main Conference).
+- *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** (Main Conference).
 - *2025.09*: &nbsp;🏅 Named as **Merit Student**.
 - *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
 - *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
@@ -48,7 +54,7 @@ My research focuses on generative models, especially diffusion models for both v
 
 - **Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law**\\
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
-**_EMNLP 2025_**（Main Conference)\\
+**_EMNLP 2025_** (Main Conference)\\
 [[pdf](https://arxiv.org/pdf/2507.22543)] [[arxiv](https://arxiv.org/abs/2507.22543)]
 
 
@@ -58,6 +64,7 @@ My research focuses on generative models, especially diffusion models for both v
 
 
 # 🏅 Honors and Awards
+- **Outstanding Graduate**, Peking University, *2026*
 - **Merit Student**, Peking University, *2025*
 - **Leo KoGuan Scholarship**, Peking University, *2025*
 - **Merit Student**, Peking University, *2024*
