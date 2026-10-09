@@ -100,6 +100,12 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 # Research Experience
 
 <div class="cv-item">
+  <div class="cv-row"><span class="cv-left"><strong>University of Michigan, Ann Arbor</strong></span><span class="cv-right">Ann Arbor, U.S.A.</span></div>
+  <div class="cv-row"><span class="cv-left"><em>Graduate Research Assistant</em>, advised by <a href="https://qingqu.engin.umich.edu/">Qing Qu</a></span></div>
+  <div class="cv-row"><span class="cv-left">Diffusion models for vision and language.</span></div>
+</div>
+
+<div class="cv-item">
   <div class="cv-row"><span class="cv-left"><strong>Alibaba Group</strong></span><span class="cv-right">Hangzhou, China</span></div>
   <div class="cv-row"><span class="cv-left"><em>Research Intern</em>, advised by Hanlin Tang</span></div>
   <div class="cv-row"><span class="cv-left">Self-guided training of diffusion models.</span></div>
