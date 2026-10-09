@@ -113,6 +113,12 @@ h1:before, .anchor:before {
     margin-top: 1em;
 }
 
+/* Sidebar text slightly larger than the theme default (1em -> 1.1em) */
+.sidebar p,
+.sidebar li {
+    font-size: 1.1em;
+}
+
 /* Bold text in black; regular text keeps the theme's dark gray */
 strong, b {
     color: #000;
