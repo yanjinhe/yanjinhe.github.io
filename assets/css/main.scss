@@ -108,6 +108,11 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+/* Sidebar: one blank line between the name and the description line */
+.author__desc {
+    margin-top: 1em;
+}
+
 /* Bold text in black; regular text keeps the theme's dark gray */
 strong, b {
     color: #000;
