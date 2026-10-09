@@ -72,7 +72,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** (Main Conference).
 - *2025.09*: &nbsp;🏅 Named as **Merit Student**.
 - *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
-- *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
+- *2025.06*: &nbsp;✈️ Going to **UIUC** for summer internship.
 
 
 # Talent Programs
