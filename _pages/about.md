@@ -62,17 +62,17 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 
 
 # 🔥 News
-- *2026.10*: &nbsp;📄 Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
-- *2026.09*: &nbsp;🎓 Started my Ph.D. in EECS at the **University of Michigan**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by Prof. Qing Qu.
-- *2026.06*: &nbsp;✈️ Started a research internship at **Alibaba** in Hangzhou.
-- *2026.06*: &nbsp;🏅 Awarded **Outstanding Graduate of Peking University**.
-- *2026.06*: &nbsp;🎓 Graduated from **Peking University** with a B.S. in Mathematics.
-- *2026.03*: &nbsp;🎤 Gave a talk at **Wuhan University**.
-- *2025.11*: &nbsp;✈️ Presented our poster at **EMNLP 2025** in Suzhou.
-- *2025.09*: &nbsp;🎉 1 Paper (as first author) accepted by **EMNLP 2025** (Main Conference).
-- *2025.09*: &nbsp;🏅 Named as **Merit Student**.
-- *2025.09*: &nbsp;🏅 Awarded the **Leo KoGuan Scholarship**.
-- *2025.06*: &nbsp;✈️ Going to UIUC for summer internship.
+- *2026.10*: Two papers on diffusion models and one paper on diffusion language models are now on arXiv.
+- *2026.09*: Started my Ph.D. in EECS at the **University of Michigan**, joining the **[DeepThink Lab](https://deepthink-umich.github.io/)** led by Prof. Qing Qu.
+- *2026.06*: Started a research internship at **Alibaba** in Hangzhou.
+- *2026.06*: Awarded **Outstanding Graduate of Peking University**.
+- *2026.06*: Graduated from **Peking University** with a B.S. in Mathematics.
+- *2026.03*: Gave a talk at **Wuhan University**.
+- *2025.11*: Presented our poster at **EMNLP 2025** in Suzhou.
+- *2025.09*: 1 Paper (as first author) accepted by **EMNLP 2025** (Main Conference).
+- *2025.09*: Named as **Merit Student**.
+- *2025.09*: Awarded the **Leo KoGuan Scholarship**.
+- *2025.06*: Going to UIUC for summer internship.
 
 
 # Talent Programs
