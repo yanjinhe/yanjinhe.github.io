@@ -40,7 +40,7 @@ I am always happy to chat about any of these topics — feel free to reach out a
 
 # Publications
 
-- **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](https://openreview.net/forum?id=1bF7B1bzn3)**\\
+- **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](/papers/swift.pdf)**\\
 **<u>Yanjin He</u>**, Cuifeng Shen, Wanzhou Lei, Maohua Li, Tao Lan, Kan Liu, Hanlin Tang, Qing Qu\\
 **_arXiv preprint_**, 2026.10\\
 [[PDF](/papers/swift.pdf)] <span style="color:#999">[arXiv]</span>
