@@ -110,7 +110,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 
 
 # Talent Programs
-- **Elite Undergraduate Program in Applied Mathematics and Statistics** (**应用数学及统计拔尖人才计划**), Peking University, *2024*
+- **Elite Undergraduate Program in Applied Mathematics and Statistics**, Peking University, *2024*
 - **Mathematical Talent Program**, Peking University, *2022*
 
 
@@ -119,7 +119,7 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - **Merit Student**, Peking University, *2025*
 - **Leo KoGuan Scholarship**, Peking University, *2025*
 - **Merit Student**, Peking University, *2024*
-- **Ding Shisun-Gui Linlin Academic Scholarship (丁石孙-桂琳琳优秀学生奖学金)**, Peking University, *2024*
+- **Ding Shisun-Gui Linlin Academic Scholarship**, Peking University, *2024*
 - **WizardQuant Scholarship**, Peking University (1 awardee in the School), *2024*
 - **First Prize**, 16th National College Student Mathematics Competition, Beijing, *2024*
 - **Panasonic Scholarship**, Peking University (5 awardees in the University), *2023*
