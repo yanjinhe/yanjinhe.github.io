@@ -672,3 +672,106 @@ mjx-container[display="true"] {
 @media (hover: none) {
   .bibtex .copy-btn { opacity: 1; }
 }
+
+/* ---------- results table, booktabs style (overrides the generic table rules) ---------- */
+
+.page__content table.results {
+  margin: 0.7rem auto 0.35rem;
+  border-collapse: collapse;
+  border-top: 1.6px solid #0f172a;
+  border-bottom: 1.6px solid #0f172a;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums lining-nums;
+  line-height: 1.3;
+  color: #1f2937;
+}
+
+.page__content table.results th,
+.page__content table.results td {
+  padding: 0.36rem 0.8rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.page__content table.results thead tr.h1 th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 0;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* short rules under each column group, with gaps between groups */
+.page__content table.results thead tr.h1 th[colspan] {
+  background: linear-gradient(#94a3b8, #94a3b8) bottom center / calc(100% - 1.1rem) 1px no-repeat;
+}
+
+.page__content table.results thead tr.h2 th {
+  padding-top: 0.3rem;
+  font-weight: 500;
+  color: #475569;
+  border-bottom: 1px solid #0f172a;
+}
+
+.page__content table.results th.rep {
+  vertical-align: bottom;
+  text-align: left;
+  font-weight: 600;
+  color: #0f172a;
+  border-bottom: 1px solid #0f172a;
+}
+
+.page__content table.results td.rep {
+  text-align: left;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.page__content table.results th.sw,
+.page__content table.results td.sw {
+  background-color: #eef5ff;
+}
+
+.page__content table.results thead tr.h2 th.sw {
+  color: #1d5fb4;
+  font-weight: 600;
+}
+
+.page__content table.results td.sw .v {
+  font-weight: 600;
+  color: #1d5fb4;
+}
+
+.page__content table.results td.sw .d {
+  display: inline-block;
+  min-width: 2.6em;
+  margin-left: 0.45em;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #15803d;
+  text-align: right;
+}
+
+.page__content table.results tr.group-row td {
+  padding: 0.5rem 0.8rem 0.3rem;
+  background: #f8fafc;
+  text-align: left;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #64748b;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.1);
+}
+
+.page__content table.results tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+@media (max-width: 50em) {
+  .page__content table.results { font-size: 0.68rem; }
+  .page__content table.results th,
+  .page__content table.results td { padding: 0.32rem 0.5rem; }
+}

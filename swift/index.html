@@ -5,19 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation</title>
   <meta name="description" content="Finite training leaves a diffusion model short of the posterior mean, and models of the same kind trained the same way fall short in the same direction. SWIFT reads that direction off a frozen weak model and aims the regression target past the clean sample. FID 1.15 on ImageNet-256 without guidance and 0.99 with guidance.">
-  <!-- draft: keep the page out of search results until it is linked from the homepage -->
-  <meta name="robots" content="noindex">
 
   <!-- link previews (Twitter / Slack / WeChat) -->
   <meta property="og:type" content="article">
   <meta property="og:title" content="SWIFT: Self-guided Weak-to-strong Diffusion Models via Target Extrapolation">
   <meta property="og:description" content="Finite training misses the posterior mean in a predictable direction; SWIFT aims the regression target past it. One network, the original sampler, FID 1.15 / 0.99 on ImageNet-256.">
   <meta property="og:url" content="https://yanjinhe.github.io/swift/">
-  <meta property="og:image" content="https://yanjinhe.github.io/swift/figures/overview.png?v=20261019d">
+  <meta property="og:image" content="https://yanjinhe.github.io/swift/figures/overview.png?v=20261019e">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" type="image/png" sizes="32x32" href="https://yanjinhe.github.io/images/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/custom.css?v=20261019d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/custom.css?v=20261019e">
 
   <script>
     window.MathJax = {
@@ -94,10 +95,10 @@
     </p>
     <p class="note-row"><span><sup>&#9839;</sup>Work done during internship at Alibaba</span> <span><sup>&dagger;</sup>Project lead</span></p>
 
-    <p class="tldr-box"><strong>TL;DR.</strong> A diffusion model trained for a finite budget falls short of the posterior mean, the optimum of its regression, and models of the same kind trained the same way fall short in the same direction. SWIFT reads that direction off a frozen weak model and pushes the regression target past the clean sample to compensate, so the trained denoiser lands closer to the posterior mean. Inference is unchanged: one network, the original sampler. On ImageNet-256, SWIFT reaches FID 1.15 without guidance and 0.99 with guidance.</p>
+    <p class="tldr-box"><strong>TL;DR.</strong> With a finite training budget, a diffusion model falls short of the posterior mean, and models of the same kind trained the same way fall short in the same direction. SWIFT reads that direction off a frozen weak model and extrapolates the regression target against it, so the trained denoiser lands closer to the posterior mean, with nothing changed at inference. On ImageNet-256 it reaches FID 1.15 without guidance and 0.99 with guidance.</p>
 
-    <a class="figure-link" href="figures/overview.png?v=20261019d"><img class="feature-figure" src="figures/overview.png?v=20261019d" width="1944" height="697" style="width:92%" alt="Left: FID-50K without and with guidance for published ImageNet-256 models, with SWIFT in the lower-left corner. Right: unguided FID over training epochs for the baseline and SWIFT on RAE/DINOv2-B; the SWIFT curve stays below the baseline."></a>
-    <p class="figure-caption"><strong>Overview.</strong> Left: FID-50K on ImageNet-256 without and with inference-time guidance, for representative published models and for SWIFT on RAEv2 / DINOv3-L. Right: on the matched RAE / DINOv2-B configuration, SWIFT stays ahead of the baseline throughout extended training (dots: raw evaluations; lines: five-point moving averages).</p>
+    <a class="figure-link" href="figures/overview.png?v=20261019e"><img class="feature-figure" src="figures/overview.png?v=20261019e" width="1944" height="697" style="width:92%" alt="Left: FID-50K without and with guidance for published ImageNet-256 models, with SWIFT in the lower-left corner. Right: unguided FID over training epochs for the baseline and SWIFT on RAE/DINOv2-B; the SWIFT curve stays below the baseline."></a>
+    <p class="figure-caption"><strong>Overview.</strong> Left: ImageNet-256 FID without vs. with guidance for published models; SWIFT (RAEv2 / DINOv3-L) sits in the lower-left corner. Right: on the matched DINOv2-B setup, SWIFT stays ahead of the baseline throughout training.</p>
 
     <hr>
 
@@ -125,7 +126,7 @@
 
     <p>Here \(D_{\mathrm{weak}}\) is a frozen weak denoiser and \(\alpha \ge 0\) sets the extrapolation strength; \(\alpha = 0\) recovers ordinary training. The target is pushed past the clean sample, away from the weak prediction, that is, against the direction in which a model like ours falls short. Conditioned on \(\bm{x}_t\), it averages to \((1+\alpha)D^\star - \alpha D_{\mathrm{weak}}\).</p>
 
-    <a class="figure-link" href="figures/target-extrapolation.svg?v=20261019d"><img class="feature-figure" src="figures/target-extrapolation.svg?v=20261019d" width="748" height="418" style="width:84%" alt="A 2D sketch. Starting from 0, ordinary training aims at the posterior mean D-star but stops short at D-weak, leaving a residual v1. The SWIFT target lies past D-star on the line away from D-weak. Training aimed at the SWIFT target stops short by a similar residual v2 and lands at D-SWIFT, which is closer to D-star than D-weak is; a red dashed ellipse marked closer groups D-SWIFT with D-star. A note below reads: since we use the same model and the same training procedure, v1 and v2 are highly similar."></a>
+    <a class="figure-link" href="figures/target-extrapolation.svg?v=20261019e"><img class="feature-figure" src="figures/target-extrapolation.svg?v=20261019e" width="748" height="418" style="width:84%" alt="A 2D sketch. Starting from 0, ordinary training aims at the posterior mean D-star but stops short at D-weak, leaving a residual v1. The SWIFT target lies past D-star on the line away from D-weak. Training aimed at the SWIFT target stops short by a similar residual v2 and lands at D-SWIFT, which is closer to D-star than D-weak is; a red dashed ellipse marked closer groups D-SWIFT with D-star. A note below reads: since we use the same model and the same training procedure, v1 and v2 are highly similar."></a>
     <p class="figure-caption"><strong>Target extrapolation, in two dimensions.</strong> Training starts at 0 and stops short of what it aims at (dotted). Aimed at the posterior mean \(D^\star\), it lands at \(D_{\mathrm{weak}}\), off by \(v_1\). SWIFT aims past \(D^\star\), away from \(D_{\mathrm{weak}}\). Because the same kind of model is trained the same way, the shortfall \(v_2\) toward the new target is close to \(v_1\) (in a linear model of training they differ only by a term proportional to \(\alpha\)), so the learned \(D_{\mathrm{SWIFT}}\) lands much closer to \(D^\star\).</p>
 
     <p>The guide is an ordinary denoiser trained with the standard loss, for example an early checkpoint of ordinary training, and frozen before the main run. In our default ImageNet setup it is smaller, with about a quarter of the main model's parameters, and trained for half as long. It runs without gradients, adding about <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-cost" data-note-target="note-cost">9% FLOPs</button> per training step, and is thrown away after training, so sampling uses one network and the original sampler. The method is <em>self-guided</em>: the correction comes from a weaker denoiser on the same task, with no external teacher, no auxiliary head and no label dropout. It works for conditional and unconditional generation, and velocity-predicting models apply it to the <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-velocity" data-note-target="note-velocity">velocity</button>.</p>
@@ -149,23 +150,21 @@
     <p class="lead-italic"><em>What the correction looks like.</em></p>
     <p>On a two-class, tree-shaped 2D distribution with thin branching support (after the fractal example of Karras et al.), SWIFT follows the narrow branches more closely than classifier-free guidance, autoguidance and four other guidance methods, each with independently tuned settings. It has the lowest KL divergence (0.728 vs. 0.817 for GFT, the strongest baseline), the lowest outlier rate (3.66% vs. 4.97%) and the highest log-likelihood (+0.08 vs. &minus;0.40).</p>
 
-    <a class="figure-link" href="figures/toy2d.png?v=20261019d"><img class="feature-figure" src="figures/toy2d.png?v=20261019d" width="1945" height="1462" style="width:86%" loading="lazy" alt="Eight panels: the ground-truth tree-shaped distribution and samples from CFG, autoguidance, model guidance, segmented guidance, internal guidance, guidance-free training and SWIFT, with zoomed insets of branching regions."></a>
+    <a class="figure-link" href="figures/toy2d.png?v=20261019e"><img class="feature-figure" src="figures/toy2d.png?v=20261019e" width="1945" height="1462" style="width:86%" loading="lazy" alt="Eight panels: the ground-truth tree-shaped distribution and samples from CFG, autoguidance, model guidance, segmented guidance, internal guidance, guidance-free training and SWIFT, with zoomed insets of branching regions."></a>
     <p class="figure-caption"><strong>A 2D toy distribution.</strong> Ground truth and samples from seven methods; the boxes zoom into branching regions. Lower KL and outlier rate and higher \(\log p\) are better.</p>
 
     <hr>
 
     <p class="lead-italic"><em>Why a deliberately biased target gives a better denoiser.</em></p>
-    <p>The SWIFT target is biased on purpose: its mean is \((1+\alpha)D^\star - \alpha D_{\mathrm{weak}}\), not \(D^\star\). With unlimited capacity and training, SWIFT would converge to that point and end up worse than ordinary training. So the benefit can only come from finite training, which is the regime every real model is in.</p>
-    <p>To see it exactly, we model training as <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-theory" data-note-target="note-theory">population gradient flow in an RKHS</button>, for any data distribution with finite second moment. Split \(D^\star\) along the eigen-directions of the kernel. After training for time \(T\), a direction with eigenvalue \(\kappa\) is learned only up to a fraction \(1-e^{-T\kappa}\): fast directions are almost done, slow ones are not. Ordinary training therefore misses \(D^\star\) by a fraction \(e^{-T\kappa}\) along each direction.</p>
-    <p>Now take the guide to be the same training stopped earlier, at \(T_g \lt T\). It misses by \(e^{-T_g\kappa}\), more than the baseline and along the same directions: the same-direction bias from above. The extrapolation \(\alpha\,(D^\star - D_{\mathrm{weak}})\) is therefore largest exactly where training is still short. Trained toward the SWIFT target for the same time \(T\), the model's error along each direction becomes</p>
+    <p>The SWIFT target is biased on purpose: its mean is \((1+\alpha)D^\star - \alpha D_{\mathrm{weak}}\), not \(D^\star\), so with unlimited training SWIFT would end up worse than ordinary training. The gain comes from finite training.</p>
+    <p>We model training as <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-theory" data-note-target="note-theory">population gradient flow in an RKHS</button>, for any data distribution with finite second moment. After time \(T\), an eigen-direction of the kernel with eigenvalue \(\kappa\) is learned only up to a fraction \(1-e^{-T\kappa}\), so ordinary training misses \(D^\star\) by \(e^{-T\kappa}\) along it. A guide stopped earlier, at \(T_g \lt T\), misses by more, \(e^{-T_g\kappa}\), along the same directions, so the extrapolation is largest exactly where training is still short. Trained toward the SWIFT target for time \(T\), the model's error along each direction is</p>
     $$
     \Big(\underbrace{-\,e^{-T\kappa}}_{\text{finite-time shortfall}} \;+\; \underbrace{\alpha\,(1-e^{-T\kappa})\,e^{-T_g\kappa}}_{\text{SWIFT correction}}\Big)\, d^\star_\kappa ,
     $$
-    <p>where \(d^\star_\kappa\) is the component of \(D^\star\) along that direction. The correction has the opposite sign of the shortfall in every learnable direction, so a small \(\alpha \gt 0\) shrinks the error in all of them at once. This is Theorem 1 of the paper: there is an \(\alpha^\star \gt 0\) such that every \(0 \lt \alpha \lt \alpha^\star\) gets strictly closer to the posterior mean than standard training with the same budget. Too large an \(\alpha\) overshoots, first along the fast directions, which need the least correction; this is consistent with the U-shape in \(\alpha\) we see in experiments.</p>
+    <p>with \(d^\star_\kappa\) the component of \(D^\star\) along that direction. The correction has the opposite sign of the shortfall, so a small \(\alpha \gt 0\) reduces the error along every direction at once (Theorem 1); too large an \(\alpha\) overshoots, consistent with the U-shape in \(\alpha\) we see in experiments. The guide does not need to be good, only wrong in the same directions, and the guarantee concerns distance to the posterior mean rather than FID directly.</p>
     <div id="note-theory" class="inline-note-body" hidden>
-      <p>Write \(L\) for the kernel integral operator on \(L^2(P_{\bm{x}_t})\) and \(H_s = I - e^{-sL}\) for the response of zero-initialized gradient flow after time \(s\). Then \(D_{\mathrm{weak}} = H_{T_g}D^\star\), \(D_{\mathrm{base}} = H_T D^\star\) and \(D^{(\alpha)}_{\mathrm{SWIFT}} = H_T\big[(1+\alpha)D^\star - \alpha D_{\mathrm{weak}}\big]\). Along an eigen-direction of \(L\) with eigenvalue \(\kappa\), \(H_s\) multiplies by \(1-e^{-s\kappa}\), which gives the formula above; directions the kernel cannot learn receive no correction. The paper's appendix also treats a smaller, spectrally nested guide, finite-step training and finite samples.</p>
+      <p>Write \(L\) for the kernel integral operator on \(L^2(P_{\bm{x}_t})\) and \(H_s = I - e^{-sL}\) for the response of zero-initialized gradient flow after time \(s\). Then \(D_{\mathrm{weak}} = H_{T_g}D^\star\), \(D_{\mathrm{base}} = H_T D^\star\) and \(D^{(\alpha)}_{\mathrm{SWIFT}} = H_T\big[(1+\alpha)D^\star - \alpha D_{\mathrm{weak}}\big]\). Along an eigen-direction of \(L\) with eigenvalue \(\kappa\), \(H_s\) multiplies by \(1-e^{-s\kappa}\), which gives the formula above; directions the kernel cannot learn receive no correction. The result is stated at one noise level and equal main-model training time, with the guide's own training not counted. The paper's appendix also treats a smaller, spectrally nested guide, finite-step training and finite samples.</p>
     </div>
-    <p>Two remarks. The guide does not need to be good: in the theorem it is strictly worse than the baseline, and it only has to be wrong in the same directions. And the result concerns distance to the posterior mean at one noise level, with the guide's own training not counted; it does not by itself guarantee a better FID, which is what the experiments test.</p>
 
     <hr>
 
@@ -175,23 +174,23 @@
     <div class="table-wrap">
     <table class="results">
       <thead>
-        <tr><th class="group"></th><th class="group" colspan="2">FID-50K, no guidance</th><th class="group" colspan="2">FID-50K, with guidance</th></tr>
-        <tr><th>Representation</th><th>Baseline</th><th>+ SWIFT</th><th>Baseline</th><th>+ SWIFT</th></tr>
+        <tr class="h1"><th rowspan="2" class="rep">Representation</th><th colspan="2">FID-50K, no guidance</th><th colspan="2">FID-50K, with guidance</th></tr>
+        <tr class="h2"><th>Baseline</th><th class="sw">SWIFT</th><th>Baseline</th><th class="sw">SWIFT</th></tr>
       </thead>
       <tbody>
-        <tr class="group-row"><td colspan="5">DiffusionBench &middot; 615M parameters &middot; 80 epochs &middot; CFG</td></tr>
-        <tr><td>RAE: DINOv2-B</td><td>2.09</td><td class="best">1.75</td><td>1.98</td><td class="best">1.59</td></tr>
-        <tr><td>VAE: SD-VAE</td><td>5.49</td><td class="best">3.77</td><td>2.32</td><td class="best">1.81</td></tr>
-        <tr><td>End-to-end: Qwen-VAE</td><td>4.94</td><td class="best">3.23</td><td>1.50</td><td class="best">1.40</td></tr>
-        <tr><td>Pixel: PixNerd</td><td>20.37</td><td class="best">10.31</td><td>4.17</td><td class="best">3.38</td></tr>
-        <tr class="group-row"><td colspan="5">RAEv2 &middot; 875M parameters &middot; up to 160 epochs &middot; internal guidance</td></tr>
-        <tr><td>RAE: DINOv3-L</td><td>1.56</td><td class="best">1.15</td><td>1.04</td><td class="best">0.99</td></tr>
+        <tr class="group-row"><td colspan="5">DiffusionBench &middot; 615M &middot; 80 epochs &middot; CFG</td></tr>
+        <tr><td class="rep">RAE: DINOv2-B</td><td>2.09</td><td class="sw"><span class="v">1.75</span><span class="d">&minus;16%</span></td><td>1.98</td><td class="sw"><span class="v">1.59</span><span class="d">&minus;20%</span></td></tr>
+        <tr><td class="rep">VAE: SD-VAE</td><td>5.49</td><td class="sw"><span class="v">3.77</span><span class="d">&minus;31%</span></td><td>2.32</td><td class="sw"><span class="v">1.81</span><span class="d">&minus;22%</span></td></tr>
+        <tr><td class="rep">End-to-end: Qwen-VAE</td><td>4.94</td><td class="sw"><span class="v">3.23</span><span class="d">&minus;35%</span></td><td>1.50</td><td class="sw"><span class="v">1.40</span><span class="d">&minus;7%</span></td></tr>
+        <tr><td class="rep">Pixel: PixNerd</td><td>20.37</td><td class="sw"><span class="v">10.31</span><span class="d">&minus;49%</span></td><td>4.17</td><td class="sw"><span class="v">3.38</span><span class="d">&minus;19%</span></td></tr>
+        <tr class="group-row"><td colspan="5">RAEv2 &middot; 875M &middot; up to 160 epochs &middot; internal guidance</td></tr>
+        <tr><td class="rep">RAE: DINOv3-L</td><td>1.56</td><td class="sw"><span class="v">1.15</span><span class="d">&minus;26%</span></td><td>1.04</td><td class="sw"><span class="v">0.99</span><span class="d">&minus;5%</span></td></tr>
       </tbody>
     </table>
     </div>
-    <p class="figure-caption table-caption"><strong>Matched pairs.</strong> Each pair shares architecture, schedule and sampler; only the regression target differs. RAEv2's SWIFT numbers use its best checkpoint (epoch 140) within the 160-epoch budget.</p>
+    <p class="figure-caption table-caption"><strong>Matched pairs.</strong> Same architecture, schedule and sampler; only the regression target differs. RAEv2's SWIFT values use its best checkpoint (epoch 140) within the 160-epoch budget.</p>
 
-    <a class="figure-link" href="figures/samples.jpg?v=20261019d"><img class="feature-figure" src="figures/samples.jpg?v=20261019d" width="1976" height="984" style="width:92%" loading="lazy" alt="A grid of eighteen ImageNet-256 samples generated by the SWIFT model: a fly agaric, a viaduct, a macaw, flowers, a cottage, a baseball, an owl, cats, a snow leopard, a shark, a hot-air balloon, bagels, a dessert, a beetle, a volcano."></a>
+    <a class="figure-link" href="figures/samples.jpg?v=20261019e"><img class="feature-figure" src="figures/samples.jpg?v=20261019e" width="1976" height="984" style="width:92%" loading="lazy" alt="A grid of eighteen ImageNet-256 samples generated by the SWIFT model: a fly agaric, a viaduct, a macaw, flowers, a cottage, a baseball, an owl, cats, a snow leopard, a shark, a hot-air balloon, bagels, a dessert, a beetle, a volcano."></a>
     <p class="figure-caption"><strong>Samples from the 0.99-gFID model</strong> (RAEv2 / DINOv3-L), 50-step ODE sampler with retuned internal guidance.</p>
 
     <hr>
@@ -199,27 +198,32 @@
     <p class="lead-italic"><em>SWIFT stacks with inference-time guidance.</em></p>
     <p>Guidance at sampling time still helps a SWIFT model: with autoguidance on the DiffusionBench models and internal guidance on RAEv2, SWIFT plus retuned guidance gives the best FID in all five configurations. It also needs less of it: on RAEv2 the best guidance scale drops from 1.78 to 1.20, while guided FID improves from 1.04 to 0.99.</p>
 
-    <a class="figure-link" href="figures/autoguidance.png?v=20261019d"><img class="feature-figure" src="figures/autoguidance.png?v=20261019d" width="1902" height="504" style="width:92%" loading="lazy" alt="Left: a table of FID for baseline, SWIFT, guided baseline and guided SWIFT over five configurations; guided SWIFT is lowest in each row. Right: FID against the internal guidance scale for the baseline and SWIFT on RAEv2; the SWIFT curve is lower and its minimum sits at a smaller scale."></a>
+    <a class="figure-link" href="figures/autoguidance.png?v=20261019e"><img class="feature-figure" src="figures/autoguidance.png?v=20261019e" width="1902" height="504" style="width:92%" loading="lazy" alt="Left: a table of FID for baseline, SWIFT, guided baseline and guided SWIFT over five configurations; guided SWIFT is lowest in each row. Right: FID against the internal guidance scale for the baseline and SWIFT on RAEv2; the SWIFT curve is lower and its minimum sits at a smaller scale."></a>
     <p class="figure-caption"><strong>SWIFT with inference-time guidance.</strong> (a) FID with autoguidance on the DiffusionBench models and internal guidance on RAEv2. (b) On RAEv2, SWIFT shifts the preferred internal-guidance scale from 1.78 to 1.20.</p>
 
     <hr>
 
     <p class="lead-italic"><em>Training cost, and longer training.</em></p>
-    <p>SWIFT adds about 9% FLOPs per training step for the frozen guide, plus about ten baseline-equivalent epochs to pretrain it. Counting both, on DINOv2-B it beats the baseline's best FID over 320 epochs (1.53) by epoch 120 (1.50), with 0.45&times; the training FLOPs; on RAEv2, epoch-50 SWIFT beats the epoch-160 baseline at 0.44&times;. The gap does not close with longer training: on DINOv2-B, SWIFT leads at every evaluation up to epoch 240, and in all 12 DiffusionBench configurations tracked during training it leads from epoch 40 on.</p>
+    <p>SWIFT adds about 9% FLOPs per training step for the frozen guide, plus about ten baseline-equivalent epochs to pretrain it. Counting both, on DINOv2-B it beats the baseline's best FID over 320 epochs (1.53) by epoch 120 (1.50), with 0.45&times; the training FLOPs; on RAEv2, epoch-50 SWIFT beats the epoch-160 baseline at 0.44&times;. The lead also persists over training: on DINOv2-B through epoch 240, and from epoch 40 onward in every one of the 12 DiffusionBench configurations we tracked.</p>
 
-    <a class="figure-link" href="figures/flops.png?v=20261019d"><img class="feature-figure figure--narrow" src="figures/flops.png?v=20261019d" width="931" height="643" style="width:56%" loading="lazy" alt="FID-50K against training FLOPs in baseline-epoch equivalents for the baseline and SWIFT on DINOv2-B; the SWIFT curve crosses the baseline's best value at 0.45 times the FLOPs."></a>
+    <a class="figure-link" href="figures/flops.png?v=20261019e"><img class="feature-figure figure--narrow" src="figures/flops.png?v=20261019e" width="931" height="643" style="width:56%" loading="lazy" alt="FID-50K against training FLOPs in baseline-epoch equivalents for the baseline and SWIFT on DINOv2-B; the SWIFT curve crosses the baseline's best value at 0.45 times the FLOPs."></a>
     <p class="figure-caption"><strong>Training compute on DINOv2-B.</strong> Guide pretraining and the per-step overhead are both charged to SWIFT; the x-axis is in baseline-epoch equivalents.</p>
 
     <hr>
 
     <p class="lead-italic"><em>How to choose \(\alpha\) and the guide.</em></p>
-    <a class="figure-link" href="figures/ablation.png?v=20261019d"><img class="feature-figure" src="figures/ablation.png?v=20261019d" width="1834" height="455" style="width:92%" loading="lazy" alt="Three panels of CIFAR-10 FID: a U-shaped curve over the coefficient alpha with its minimum between 0.5 and 1; FID against guide width with the minimum at half width; FID against guide training length, flat after an initial drop."></a>
+    <a class="figure-link" href="figures/ablation.png?v=20261019e"><img class="feature-figure" src="figures/ablation.png?v=20261019e" width="1834" height="455" style="width:92%" loading="lazy" alt="Three panels of CIFAR-10 FID: a U-shaped curve over the coefficient alpha with its minimum between 0.5 and 1; FID against guide width with the minimum at half width; FID against guide training length, flat after an initial drop."></a>
     <p class="figure-caption"><strong>CIFAR-10 ablations.</strong> (a) The coefficient \(\alpha\), with a half-width guide. (b) The guide's width, with the student at channel base 128. (c) How long the guide is trained before it is frozen.</p>
     <ul>
       <li><strong>\(\alpha\):</strong> moderate positive values work, and the curve is U-shaped (best around 0.7&ndash;0.9 on CIFAR-10; 0.5&ndash;1.0 works well on ImageNet). All ImageNet results use \(\alpha = 0.4\) without tuning.</li>
       <li><strong>Guide:</strong> weaker than the student, but competent. A half-width guide works best (CIFAR-10 FID 2.58 &rarr; 1.60 compared with a full-width one); much smaller guides hurt, and past a competence threshold the guide's training length matters little.</li>
       <li><strong>Keep it simple:</strong> a frozen guide and a fixed \(\alpha\). Co-training the guide gave no clear additional benefit.</li>
     </ul>
+
+    <hr>
+
+    <p class="lead-italic"><em>Conclusion.</em></p>
+    <p>Finite training misses the posterior mean in a direction that a weaker model of the same kind reveals, and SWIFT turns this into a better regression target: aim past the clean sample, away from a frozen weak model. It costs about 9% more training compute, leaves inference untouched, and lowers FID in every ImageNet configuration we tried. More broadly, the regression target is a design choice in its own right, not a fixed quantity.</p>
 
     <hr>
 
