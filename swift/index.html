@@ -214,7 +214,7 @@
     <a class="figure-link" href="figures/ablation.png?v=20261019e"><img class="feature-figure" src="figures/ablation.png?v=20261019e" width="1834" height="455" style="width:92%" loading="lazy" alt="Three panels of CIFAR-10 FID: a U-shaped curve over the coefficient alpha with its minimum between 0.5 and 1; FID against guide width with the minimum at half width; FID against guide training length, flat after an initial drop."></a>
     <p class="figure-caption"><strong>CIFAR-10 ablations.</strong> (a) The coefficient \(\alpha\), with a half-width guide. (b) The guide's width, with the student at channel base 128. (c) How long the guide is trained before it is frozen.</p>
     <ul>
-      <li><strong>\(\alpha\):</strong> moderate positive values work, and the curve is U-shaped (best around 0.7&ndash;0.9 on CIFAR-10; 0.5&ndash;1.0 works well on ImageNet). All ImageNet results use \(\alpha = 0.4\) without tuning.</li>
+      <li><strong>\(\alpha\):</strong> moderate positive values work, and the curve is U-shaped; \(\alpha\) between 0.4 and 0.8 works well on both CIFAR-10 and ImageNet. All ImageNet results use \(\alpha = 0.4\) without tuning.</li>
       <li><strong>Guide:</strong> weaker than the student, but competent. A half-width guide works best (CIFAR-10 FID 2.58 &rarr; 1.60 compared with a full-width one); much smaller guides hurt, and past a competence threshold the guide's training length matters little.</li>
       <li><strong>Keep it simple:</strong> a frozen guide and a fixed \(\alpha\). Co-training the guide gave no clear additional benefit.</li>
     </ul>
