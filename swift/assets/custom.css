@@ -591,3 +591,84 @@ mjx-container[display="true"] {
     width: 100% !important;
   }
 }
+
+/* ---------- results table: group rows and a short caption ---------- */
+
+.page__content table.results tr.group-row td {
+  padding: 0.55rem 0.6rem 0.25rem;
+  text-align: left;
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #64748b;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+.page__content p.table-caption {
+  max-width: 640px;
+  margin-top: 0.5rem;
+}
+
+/* keep a figure that follows a caption clear of it */
+.page__content p.figure-caption + a.figure-link {
+  margin-top: 1.5rem;
+}
+
+/* ---------- BibTeX, styled like a highlighted code block ---------- */
+
+.page__content h3.bibtex-title {
+  margin: 1.6rem 0 0.45rem;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #262626;
+}
+
+.page__content .bibtex pre {
+  margin: 0 0 0.6rem;
+  padding: 0.6rem 0.75rem;
+  border: 0;
+  border-radius: 4px;
+  background: #263238;
+  color: #eeffff;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 0.63rem;
+  line-height: 1.8;
+  overflow-x: auto;
+}
+
+.page__content .bibtex code {
+  font-family: inherit;
+  color: inherit;
+}
+
+.bibtex .nc { color: #ffcb6b; }
+.bibtex .na { color: #82aaff; }
+.bibtex .s  { color: #c3e88d; }
+.bibtex .nl,
+.bibtex .p  { color: #eeffff; }
+
+.bibtex .copy-btn {
+  top: 0.4rem;
+  right: 0.4rem;
+  border: 1px solid rgba(238, 255, 255, 0.25);
+  background: rgba(38, 50, 56, 0.9);
+  color: #b0bec5;
+  opacity: 0;
+  transition: opacity 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.bibtex:hover .copy-btn,
+.bibtex .copy-btn:focus-visible {
+  opacity: 1;
+}
+
+.bibtex .copy-btn:hover {
+  color: #eeffff;
+  border-color: rgba(238, 255, 255, 0.55);
+}
+
+@media (hover: none) {
+  .bibtex .copy-btn { opacity: 1; }
+}
