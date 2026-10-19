@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748 418" width="748" height="418" role="img" aria-labelledby="ex2d-title">
-<title id="ex2d-title">Target extrapolation in two dimensions. Training from the initialization toward the posterior mean D-star stops short at D-weak, with residual v1. SWIFT extrapolates the target past D-star, away from D-weak. Training toward that target leaves a similar residual v2, so the learned D-SWIFT ends up closer to D-star.</title>
+<title id="ex2d-title">Target extrapolation in two dimensions. Training from 0 toward the posterior mean D-star stops short at D-weak, with residual v1. SWIFT extrapolates the target past D-star, away from D-weak. Training toward that target leaves a similar residual v2, so the learned D-SWIFT ends up closer to D-star.</title>
 <defs>
   <marker id="ah-o" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.2" markerHeight="6.2" orient="auto"><path d="M0,0.6 L10,5 L0,9.4 z" fill="#d9771c"/></marker>
   <marker id="ah-b" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="6.2" markerHeight="6.2" orient="auto"><path d="M0,0.6 L10,5 L0,9.4 z" fill="#1d5fb4"/></marker>
