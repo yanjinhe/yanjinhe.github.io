@@ -43,22 +43,22 @@ I am always happy to chat about any of these topics — feel free to reach out a
 - **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](/papers/swift.pdf)**\\
 **<u>Yanjin He</u>**, Cuifeng Shen, Wanzhou Lei, Maohua Li, Tao Lan, Kan Liu, Hanlin Tang, Qing Qu\\
 **_arXiv preprint_**, 2026.10\\
-[[PDF](/papers/swift.pdf)] <span style="color:#999">[arXiv]</span> [[Blog](/swift/)]
+<span class="pub-links"><a class="pub-btn pub-btn--pdf" href="/papers/swift.pdf"><i class="fas fa-file-pdf"></i>PDF</a><span class="pub-btn pub-btn--arxiv pub-btn--soon" title="coming soon"><i class="ai ai-arxiv"></i>arXiv</span><a class="pub-btn pub-btn--blog" href="/swift/"><i class="fas fa-pen-nib"></i>Blog</a></span>
 
 - **[Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016)**\\
 Zekai Zhang, Yunjie Tian, **<u>Yanjin He</u>**, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu\\
 **_arXiv preprint_**, 2026.10\\
-[[PDF](https://arxiv.org/pdf/2610.01016)] [[arXiv](https://arxiv.org/abs/2610.01016)] [[GitHub](https://github.com/la0ka1/diffusing-scaled-text-embeddings)] [[Blog](https://la0ka1.github.io/diffusing-scaled-text-embeddings/)]
+<span class="pub-links"><a class="pub-btn pub-btn--pdf" href="https://arxiv.org/pdf/2610.01016"><i class="fas fa-file-pdf"></i>PDF</a><a class="pub-btn pub-btn--arxiv" href="https://arxiv.org/abs/2610.01016"><i class="ai ai-arxiv"></i>arXiv</a><a class="pub-btn pub-btn--code" href="https://github.com/la0ka1/diffusing-scaled-text-embeddings"><i class="fab fa-github"></i>GitHub</a><a class="pub-btn pub-btn--blog" href="https://la0ka1.github.io/diffusing-scaled-text-embeddings/"><i class="fas fa-pen-nib"></i>Blog</a></span>
 
 - **[Super-Resolution in the Right Latent Space: A Frozen Vision-Foundation Substrate](https://arxiv.org/abs/2610.04781)**\\
 Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof Persson, Tao Lan, Kan Liu, Hanlin Tang\\
 **_arXiv preprint_**, 2026.10\\
-[[PDF](https://arxiv.org/pdf/2610.04781)] [[arXiv](https://arxiv.org/abs/2610.04781)]
+<span class="pub-links"><a class="pub-btn pub-btn--pdf" href="https://arxiv.org/pdf/2610.04781"><i class="fas fa-file-pdf"></i>PDF</a><a class="pub-btn pub-btn--arxiv" href="https://arxiv.org/abs/2610.04781"><i class="ai ai-arxiv"></i>arXiv</a></span>
 
 - **[Pre-trained Models Perform the Best When Token Distributions Follow Zipf's Law](https://aclanthology.org/2025.emnlp-main.1421/)**\\
 **<u>Yanjin He</u>**, Qingkai Zeng, Meng Jiang\\
 **_EMNLP 2025_** (Main Conference)\\
-[[PDF](https://arxiv.org/pdf/2507.22543)] [[arXiv](https://arxiv.org/abs/2507.22543)] [[GitHub](https://github.com/yanjinhe/Tokenizer)]
+<span class="pub-links"><a class="pub-btn pub-btn--pdf" href="https://arxiv.org/pdf/2507.22543"><i class="fas fa-file-pdf"></i>PDF</a><a class="pub-btn pub-btn--arxiv" href="https://arxiv.org/abs/2507.22543"><i class="ai ai-arxiv"></i>arXiv</a><a class="pub-btn pub-btn--code" href="https://github.com/yanjinhe/Tokenizer"><i class="fab fa-github"></i>GitHub</a></span>
 
 
 # Research Experience

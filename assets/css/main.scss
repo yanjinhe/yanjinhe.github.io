@@ -149,3 +149,53 @@ strong, b {
     margin-left: auto;
     text-align: right;
 }
+/* Publication links (PDF / arXiv / GitHub / Blog) as small pill buttons */
+.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em;
+    margin-top: 0.4em;
+}
+
+.pub-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.42em;
+    padding: 0.16em 0.72em;
+    border: 1px solid #d5dbe3;
+    border-radius: 999px;
+    background: #f6f8fa;
+    color: #1f2937 !important;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.55;
+    letter-spacing: 0.01em;
+    text-decoration: none !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+
+    i {
+        font-size: 1.05em;
+    }
+}
+
+.pub-btn--pdf i   { color: #d93025; }
+.pub-btn--arxiv i { color: #b31b1b; }
+.pub-btn--code i  { color: #24292f; }
+.pub-btn--blog i  { color: #0b7fd1; }
+
+a.pub-btn:hover {
+    background: #eaf1fb;
+    border-color: #9fb3cc;
+}
+
+/* a link that does not exist yet (e.g. arXiv before the preprint is out) */
+.pub-btn--soon {
+    border-style: dashed;
+    background: #ffffff;
+    color: #94a3b8 !important;
+    cursor: default;
+
+    i {
+        color: #b6bfcc !important;
+    }
+}
