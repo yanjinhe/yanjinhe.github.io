@@ -149,7 +149,15 @@ strong, b {
     margin-left: auto;
     text-align: right;
 }
-/* Publication links (PDF / arXiv / GitHub / Blog) as small pill buttons */
+/* Publication titles a little larger than the body text */
+#publications + ul > li > p > strong:first-child,
+#publications + ul > li > strong:first-child {
+    font-size: 1.12em;
+    line-height: 1.35;
+}
+
+/* Publication links (PDF / arXiv / GitHub / Blog) as small pill buttons,
+   each in its own color */
 .pub-links {
     display: flex;
     flex-wrap: wrap;
@@ -175,27 +183,36 @@ strong, b {
 
     i {
         font-size: 1.05em;
+        color: inherit;
     }
 }
 
-.pub-btn--pdf i   { color: #d93025; }
-.pub-btn--arxiv i { color: #b31b1b; }
-.pub-btn--code i  { color: #24292f; }
-.pub-btn--blog i  { color: #0b7fd1; }
-
-a.pub-btn:hover {
-    background: #eaf1fb;
-    border-color: #9fb3cc;
+/* arXiv logo (Simple Icons, CC0), drawn in the button's text color */
+.icon-arxiv {
+    display: inline-block;
+    width: 1.15em;
+    height: 1.15em;
+    background-color: currentColor;
+    -webkit-mask: url("/images/icons/arxiv.svg") no-repeat center / contain;
+    mask: url("/images/icons/arxiv.svg") no-repeat center / contain;
 }
+
+.pub-btn--pdf   { color: #c2410c !important; background: #fff5ee; border-color: #f8cfb2; }
+.pub-btn--arxiv { color: #b31b1b !important; background: #fcf1f1; border-color: #efc4c4; }
+.pub-btn--code  { color: #24292f !important; background: #f3f4f6; border-color: #cfd5dc; }
+.pub-btn--blog  { color: #1d5fb4 !important; background: #eff5fd; border-color: #bcd3f0; }
+
+a.pub-btn--pdf:hover   { background: #fde6d6; border-color: #f0a877; }
+a.pub-btn--arxiv:hover { background: #f8e0e0; border-color: #dd9a9a; }
+a.pub-btn--code:hover  { background: #e5e8ec; border-color: #a9b3be; }
+a.pub-btn--blog:hover  { background: #dfeafb; border-color: #8fb4e3; }
 
 /* a link that does not exist yet (e.g. arXiv before the preprint is out) */
-.pub-btn--soon {
+.pub-btn--soon,
+.pub-btn--soon.pub-btn--arxiv {
     border-style: dashed;
+    border-color: #cbd5e1;
     background: #ffffff;
-    color: #94a3b8 !important;
+    color: #a0aab8 !important;
     cursor: default;
-
-    i {
-        color: #b6bfcc !important;
-    }
 }
