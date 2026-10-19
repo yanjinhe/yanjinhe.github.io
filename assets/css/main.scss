@@ -216,3 +216,9 @@ a.pub-btn--blog:hover  { background: #dfeafb; border-color: #8fb4e3; }
     color: #a0aab8 !important;
     cursor: default;
 }
+
+/* Education / Research Experience: institution names (the bold first row
+   of each entry) slightly larger than the body text */
+.cv-item > .cv-row:first-child .cv-left > strong {
+    font-size: 1.06em;
+}
