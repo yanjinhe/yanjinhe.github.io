@@ -103,12 +103,11 @@
     <hr>
 
     <p class="lead-italic"><em>Finite training misses the posterior mean, in a predictable direction.</em></p>
-    <p>A diffusion model is trained by regressing its denoiser \(D_\theta(\bm{x}_t,\sigma_t)\) onto the clean sample \(\bm{x}_0\). The optimum of this regression is the <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-posterior" data-note-target="note-posterior">posterior mean</button> \(D^\star = \mathbb{E}[\bm{x}_0 \mid \bm{x}_t]\), and the sampler uses the trained denoiser as if it were \(D^\star\). But training stops after a finite budget, so the denoiser we sample with never quite reaches \(D^\star\), and the gap is felt at every sampling step.</p>
+    <p>A diffusion model is trained by regressing its denoiser \(D_\theta(\bm{x}_t,\sigma_t)\) onto the clean sample \(\bm{x}_0\). The optimum is the <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-posterior" data-note-target="note-posterior">posterior mean</button> \(D^\star = \mathbb{E}[\bm{x}_0 \mid \bm{x}_t]\), which the sampler assumes it is using, but with a finite budget the trained denoiser stops short of it.</p>
     <div id="note-posterior" class="inline-note-body" hidden>
       <p>With \(\bm{x}_t = \bm{x}_0 + \bm{\varepsilon}_t\), \(\bm{\varepsilon}_t \sim \mathcal{N}(\bm{0},\sigma_t^2\bm{I})\), the minimizer of \(\mathbb{E}\,\lambda(t)\|D(\bm{x}_t,\sigma_t)-\bm{x}_0\|^2\) over all functions is \(D^\star(\bm{x}_t,\sigma_t) = \mathbb{E}[\bm{x}_0 \mid \bm{x}_t]\). Tweedie's formula turns it into the score, \(\nabla_{\bm{x}_t}\log p_t(\bm{x}_t) = (D^\star - \bm{x}_t)/\sigma_t^2\), which is what the sampler integrates.</p>
     </div>
-    <p>The gap is not random. A model of a given kind, trained with a given procedure, learns some parts of \(D^\star\) quickly and others slowly, and stops short on the slow ones. Another model of the same kind, trained the same way, stops short on the same parts: models of the same family trained the same way are biased in the same direction relative to their training target. A weaker such model, smaller or stopped earlier, is biased further along that direction, so its prediction shows which way training is going to miss.</p>
-    <p>That suggests a simple fix. If we know in which direction training falls short, we can aim past the target in the opposite direction, so that the shortfall lands the model near \(D^\star\) rather than short of it.</p>
+    <p>The shortfall is not random: models of the same kind, trained the same way, learn the same parts of \(D^\star\) slowly and so fall short in the same direction. A weaker such model, smaller or stopped earlier, falls further along that direction and thus shows where training will miss. So we can aim past the target in the opposite direction.</p>
 
     <hr>
 
