@@ -204,7 +204,7 @@
     <hr>
 
     <p class="lead-italic"><em>Training cost, and longer training.</em></p>
-    <p>SWIFT adds about 9% FLOPs per training step for the frozen guide, plus about ten baseline-equivalent epochs to pretrain it. Counting both, on DINOv2-B it beats the baseline's best FID over 320 epochs (1.53) by epoch 120 (1.50), with 0.45&times; the training FLOPs; on RAEv2, epoch-50 SWIFT beats the epoch-160 baseline at 0.44&times;. The lead also persists over training: on DINOv2-B through epoch 240, and from epoch 40 onward in every one of the 12 DiffusionBench configurations we tracked.</p>
+    <p>SWIFT adds 9&ndash;12% FLOPs per training step for the frozen guide, plus a one-off 10&ndash;15 baseline-equivalent epochs to pretrain it. Counting both, on DINOv2-B it beats the baseline's best FID over 320 epochs (1.53) by epoch 120 (1.50), with 0.45&times; the training FLOPs; on DINOv3-L it beats the epoch-160 baseline (1.56) by epoch 50 (1.34), with 0.44&times; the training FLOPs. The lead also persists over training: on DINOv2-B through epoch 240, and from epoch 40 onward in every one of the 12 DiffusionBench configurations we tracked.</p>
 
     <a class="figure-link" href="figures/flops.png?v=20261019e"><img class="feature-figure figure--narrow" src="figures/flops.png?v=20261019e" width="931" height="643" style="width:56%" loading="lazy" alt="FID-50K against training FLOPs in baseline-epoch equivalents for the baseline and SWIFT on DINOv2-B; the SWIFT curve crosses the baseline's best value at 0.45 times the FLOPs."></a>
     <p class="figure-caption"><strong>Training compute on DINOv2-B.</strong> Guide pretraining and the per-step overhead are both charged to SWIFT; the x-axis is in baseline-epoch equivalents.</p>
