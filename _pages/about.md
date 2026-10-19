@@ -126,6 +126,6 @@ Wanzhou Lei, Cuifeng Shen, **<u>Yanjin He</u>**, Maohua Li, Hua Yuan, Per-Olof P
 - **Outstanding Study Award**, Peking University, *2023*
 - **First Prize**, 15th National College Student Mathematics Competition, Beijing, *2023*
 ## Selected High School Awards
-- **Gold Medalist**, Chinese Mathematical Olympiad (CMO Finals), *2021*
+- <strong style="color:#94070A">Gold Medalist</strong>, Chinese Mathematical Olympiad (CMO Finals), *2021*
 - **Outstanding Graduate**, Affiliated High School of South China Normal University, *2021*
 - **Top 10 School Stars**, Affiliated High School of South China Normal University, *2020*
