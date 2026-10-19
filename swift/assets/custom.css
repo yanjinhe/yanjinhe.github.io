@@ -384,14 +384,6 @@ a.figure-link:hover {
   margin-top: 0.9rem;
 }
 
-/* the inline schematic of the extrapolated target */
-.schematic {
-  display: block;
-  width: min(100%, 680px);
-  height: auto;
-  margin: 0.6rem auto 0.2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
 
 /* ---------- the method equation ---------- */
 

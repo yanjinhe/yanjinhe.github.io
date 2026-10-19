@@ -128,34 +128,8 @@
 
     <p>Here \(D_{\mathrm{weak}}\) is a frozen weak denoiser and \(\alpha \ge 0\) sets the extrapolation strength; \(\alpha = 0\) recovers ordinary training. For \(\alpha \gt 0\) the target lies beyond the clean sample, on the side away from the weak prediction. This is the autoguidance formula with the observed \(\bm{x}_0\) in place of the strong model's prediction, used as a regression target rather than at sampling time. Indeed, conditioned on \(\bm{x}_t\), the target averages to \((1+\alpha)D^\star - \alpha D_{\mathrm{weak}}\): autoguidance applied to the ideal denoiser.</p>
 
-    <svg class="schematic" viewBox="0 0 600 140" role="img" aria-labelledby="schematic-title">
-      <title id="schematic-title">Target extrapolation: the regression target moves from the clean sample to a point beyond it, on the line through the weak prediction.</title>
-      <defs>
-        <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
-        <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0b7fd1"/></marker>
-      </defs>
-      <line x1="16" y1="90" x2="584" y2="90" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="3 7"/>
-      <line x1="82" y1="90" x2="324" y2="90" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow-gray)"/>
-      <line x1="352" y1="90" x2="512" y2="90" stroke="#0b7fd1" stroke-width="3.5" marker-end="url(#arrow-blue)"/>
-      <circle cx="70" cy="90" r="8" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
-      <circle cx="340" cy="90" r="8" fill="#0f172a"/>
-      <circle cx="530" cy="90" r="9" fill="#0b7fd1"/>
-      <g font-size="16" fill="#64748b" text-anchor="middle" font-family="'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif">
-        <text x="70" y="26">weak prediction</text>
-        <text x="340" y="26">clean sample</text>
-        <text x="530" y="26" fill="#0b7fd1" font-weight="600">SWIFT target</text>
-      </g>
-      <g font-size="21" font-style="italic" fill="#0f172a" text-anchor="middle" font-family="Georgia,'Times New Roman',serif">
-        <text x="70" y="62">D<tspan font-size="13" font-style="normal" dy="5">weak</tspan><tspan dy="-5">(x</tspan><tspan font-size="13" dy="5">t</tspan><tspan dy="-5">)</tspan></text>
-        <text x="340" y="62">x<tspan font-size="13" dy="5">0</tspan></text>
-        <text x="530" y="62" fill="#0b7fd1">y<tspan font-size="13" dy="5">&#945;</tspan></text>
-      </g>
-      <g font-size="16" fill="#475569" text-anchor="middle" font-style="italic" font-family="Georgia,'Times New Roman',serif">
-        <text x="205" y="124">x<tspan font-size="11" dy="4">0</tspan><tspan dy="-4"> &#8722; D</tspan><tspan font-size="11" font-style="normal" dy="4">weak</tspan><tspan dy="-4">(x</tspan><tspan font-size="11" dy="4">t</tspan><tspan dy="-4">)</tspan></text>
-        <text x="436" y="124" fill="#0b7fd1">&#945;&#8202;(x<tspan font-size="11" dy="4">0</tspan><tspan dy="-4"> &#8722; D</tspan><tspan font-size="11" font-style="normal" dy="4">weak</tspan><tspan dy="-4">(x</tspan><tspan font-size="11" dy="4">t</tspan><tspan dy="-4">))</tspan></text>
-      </g>
-    </svg>
-    <p class="figure-caption"><strong>Target extrapolation.</strong> For each noisy input, the regression target is carried from \(\bm{x}_0\) past itself to \(\bm{y}_\alpha\), along the direction autoguidance would use at sampling time. The weak denoiser only defines that direction; it is never imitated.</p>
+    <a class="figure-link" href="figures/target-extrapolation.svg"><img class="feature-figure" src="figures/target-extrapolation.svg" width="748" height="382" style="width:84%" alt="A 2D sketch. From the initialization 0, ordinary training aims at the posterior mean D-star but stops short at D-weak, leaving a residual v1. The SWIFT target lies past D-star on the line away from D-weak. Training aimed at the SWIFT target stops short by a similar residual v2 and lands at D-SWIFT, which is closer to D-star than D-weak is."></a>
+    <p class="figure-caption"><strong>Target extrapolation, in two dimensions.</strong> Training starts at 0 and, after a finite budget, stops short of what it aims at (dotted). Aimed at the posterior mean \(D^\star\), it lands at \(D_{\mathrm{weak}}\), off by a residual \(v_1\) that depends on the budget and the architecture. SWIFT aims past \(D^\star\), away from \(D_{\mathrm{weak}}\). Training toward this target leaves a similar residual \(v_2\) (the two differ only by a term proportional to \(\alpha\)), so the learned \(D_{\mathrm{SWIFT}}\) lands closer to \(D^\star\).</p>
 
     <p>The guide is an ordinary denoiser, trained with the standard loss and frozen before the main run. By default it is smaller and trained for less time: on DiffusionBench it has about a quarter of the main model's parameters and is trained for half its standard duration. It runs without gradients, adding about <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-cost" data-note-target="note-cost">9% FLOPs</button> per training step, and is discarded afterwards. The method is <em>self-guided</em> because the correction comes from a weaker denoiser trained on the same task: no external teacher, no separate guidance objective, no auxiliary head, and no label dropout or unconditional branch. The same construction works for conditional and unconditional generation, and velocity-predicting models apply it to the <button class="inline-note-trigger" type="button" aria-expanded="false" aria-controls="note-velocity" data-note-target="note-velocity">velocity</button>.</p>
     <div id="note-cost" class="inline-note-body" hidden>
