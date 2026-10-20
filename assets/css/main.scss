@@ -197,6 +197,16 @@ strong, b {
     mask: url("/images/icons/arxiv.svg") no-repeat center / contain;
 }
 
+/* Slides: "presentation" icon (Phosphor Icons, MIT), same technique */
+.icon-slides {
+    display: inline-block;
+    width: 1.15em;
+    height: 1.15em;
+    background-color: currentColor;
+    -webkit-mask: url("/images/icons/slides.svg") no-repeat center / contain;
+    mask: url("/images/icons/slides.svg") no-repeat center / contain;
+}
+
 .pub-btn--pdf   { color: #c2410c !important; background: #fff5ee; border-color: #f8cfb2; }
 .pub-btn--arxiv { color: #b31b1b !important; background: #fcf1f1; border-color: #efc4c4; }
 .pub-btn--code  { color: #24292f !important; background: #f3f4f6; border-color: #cfd5dc; }

@@ -43,7 +43,7 @@ I am always happy to chat about any of these topics — feel free to reach out a
 - **[SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation](/papers/swift.pdf)**\\
 **<u>Yanjin He</u>**, Cuifeng Shen, Wanzhou Lei, Maohua Li, Tao Lan, Kan Liu, Hanlin Tang, Qing Qu\\
 **_arXiv preprint_**, 2026.10\\
-<span class="pub-links"><a class="pub-btn pub-btn--pdf" href="/papers/swift.pdf"><i class="fas fa-file-pdf"></i>PDF</a><span class="pub-btn pub-btn--arxiv pub-btn--soon" title="coming soon"><i class="icon-arxiv" aria-hidden="true"></i>arXiv</span><a class="pub-btn pub-btn--slides" href="/papers/swift_slides.pdf"><i class="fas fa-chalkboard-teacher"></i>Slides</a><a class="pub-btn pub-btn--blog" href="/swift/"><i class="fas fa-pen-nib"></i>Blog</a></span>
+<span class="pub-links"><a class="pub-btn pub-btn--pdf" href="/papers/swift.pdf"><i class="fas fa-file-pdf"></i>PDF</a><span class="pub-btn pub-btn--arxiv pub-btn--soon" title="coming soon"><i class="icon-arxiv" aria-hidden="true"></i>arXiv</span><a class="pub-btn pub-btn--slides" href="/papers/swift_slides.pdf"><i class="icon-slides" aria-hidden="true"></i>Slides</a><a class="pub-btn pub-btn--blog" href="/swift/"><i class="fas fa-pen-nib"></i>Blog</a></span>
 
 - **[Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016)**\\
 Zekai Zhang, Yunjie Tian, **<u>Yanjin He</u>**, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu\\
