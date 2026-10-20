@@ -201,11 +201,13 @@ strong, b {
 .pub-btn--arxiv { color: #b31b1b !important; background: #fcf1f1; border-color: #efc4c4; }
 .pub-btn--code  { color: #24292f !important; background: #f3f4f6; border-color: #cfd5dc; }
 .pub-btn--blog  { color: #1d5fb4 !important; background: #eff5fd; border-color: #bcd3f0; }
+.pub-btn--slides { color: #6d28d9 !important; background: #f6f2fe; border-color: #d8c8f6; }
 
 a.pub-btn--pdf:hover   { background: #fde6d6; border-color: #f0a877; }
 a.pub-btn--arxiv:hover { background: #f8e0e0; border-color: #dd9a9a; }
 a.pub-btn--code:hover  { background: #e5e8ec; border-color: #a9b3be; }
 a.pub-btn--blog:hover  { background: #dfeafb; border-color: #8fb4e3; }
+a.pub-btn--slides:hover { background: #ece3fd; border-color: #b39ae9; }
 
 /* a link that does not exist yet (e.g. arXiv before the preprint is out) */
 .pub-btn--soon,
