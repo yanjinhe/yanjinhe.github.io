@@ -204,7 +204,17 @@ sup {
 }
 
 .button-row a.btn.btn--pdf svg {
-  color: #0b7fd1;
+  color: #c2410c;
+}
+
+.button-row a.btn.btn--alphaxiv svg {
+  width: 1.45em;
+  color: #9a2036;
+}
+
+.button-row a.btn.btn--hf svg {
+  width: 1.3em;
+  height: 1.3em;
 }
 
 .button-row a.btn.btn--slides svg {
