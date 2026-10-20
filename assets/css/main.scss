@@ -197,16 +197,14 @@ strong, b {
     mask: url("/images/icons/arxiv.svg") no-repeat center / contain;
 }
 
-/* alphaXiv: a Greek alpha as the icon */
-.pub-btn .icon-alpha {
+/* alphaXiv: its own logo (from alphaxiv.org), same mask technique */
+.icon-alphaxiv {
     display: inline-block;
-    width: 1.15em;
-    text-align: center;
-    font-family: "Times New Roman", Georgia, serif;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 1.25em;
-    line-height: 1;
+    width: 1.4em;
+    height: 1.15em;
+    background-color: currentColor;
+    -webkit-mask: url("/images/icons/alphaxiv.svg") no-repeat center / contain;
+    mask: url("/images/icons/alphaxiv.svg") no-repeat center / contain;
 }
 
 /* Slides: "presentation" icon (Phosphor Icons, MIT), same technique */
@@ -224,14 +222,14 @@ strong, b {
 .pub-btn--code  { color: #24292f !important; background: #f3f4f6; border-color: #cfd5dc; }
 .pub-btn--blog  { color: #1d5fb4 !important; background: #eff5fd; border-color: #bcd3f0; }
 .pub-btn--slides { color: #6d28d9 !important; background: #f6f2fe; border-color: #d8c8f6; }
-.pub-btn--alphaxiv { color: #0f766e !important; background: #effaf8; border-color: #b5e2da; }
+.pub-btn--alphaxiv { color: #9a2036 !important; background: #fbf0f2; border-color: #ebc3cb; }
 
 a.pub-btn--pdf:hover   { background: #fde6d6; border-color: #f0a877; }
 a.pub-btn--arxiv:hover { background: #f8e0e0; border-color: #dd9a9a; }
 a.pub-btn--code:hover  { background: #e5e8ec; border-color: #a9b3be; }
 a.pub-btn--blog:hover  { background: #dfeafb; border-color: #8fb4e3; }
 a.pub-btn--slides:hover { background: #ece3fd; border-color: #b39ae9; }
-a.pub-btn--alphaxiv:hover { background: #dcf3ee; border-color: #7cc9bb; }
+a.pub-btn--alphaxiv:hover { background: #f6e1e6; border-color: #d99aa8; }
 
 /* a link that does not exist yet (e.g. arXiv before the preprint is out) */
 .pub-btn--soon,
